@@ -1,0 +1,3566 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/IsaacLau/Perforce/isaac_lau_DESKTOP-HJK766P_7553/Development/Prototypes/Green Development Agency/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConnectionAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConnectionAnchor.html",
+          "hash": "XzxHOUZNMxegy86mbBz4f5raMfLRYUIisJcSO74q4Ug="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Conversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Conversation.html",
+          "hash": "qL3vyiZo42XVoZjiWGfwo/gwZ3/Q9oB6vdwuSOwFWio="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConversationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConversationBuilder.html",
+          "hash": "YIHspvVCl+VmpbXpIUBwNZZfi2+QKm1zNkYhOW6H0xo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConversationStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConversationStorage.html",
+          "hash": "4bYzlhiTbSZH+cCHkzrGg6gjx9xFs93tjj7Ysp3NqqQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConvoLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConvoLine.html",
+          "hash": "jc+AHVPGj1m6acG5zAQojbSlsUhEitvP/3chyhosanU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConvoTextUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConvoTextUI.html",
+          "hash": "mdBA1PrBSsiDiWD6MfrF3NNvl6pvxqGWaQjsRCFkanA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ConvoUIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ConvoUIManager.html",
+          "hash": "JI7NCcPBKKUQfsoqAaB1n85vkFQoYazg+SFrRxtwCic="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutScene.html",
+          "hash": "KLNy/vXH7HCtMW1eD2leBL0wVmoZVa8nmzjt4Iy/UiI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutSceneManager.html",
+          "hash": "aYGqGG2DRwu9nT63GEyFI34PUegVO9tCkMsJMT8Y+p4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutSceneSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutSceneSequence.html",
+          "hash": "4fV/F6Pbb3CZ1r81TMT7CNaSlg1HRAD1BSjchnrRla8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Cutout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Cutout.html",
+          "hash": "lnUIw9dzBy5DpAKJqL90FFLbrTHma9BLA6zmjuOOBlU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutoutMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutoutMask.html",
+          "hash": "tpe0AlE8zHN7NWhO/AbD3MwDYQslP1rzqZEdI0Jypf4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutoutMaskee.RaycastFilterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutoutMaskee.RaycastFilterMode.html",
+          "hash": "ohsSTDAGaFz6I4EExcwslYc0f0YielkHHev9sPlJqv4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.CutoutMaskee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.CutoutMaskee.html",
+          "hash": "BpfOQ0tuHKNk94sc/iqdLu+ijWl8IQ/xGkCcXnlSc8c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DataRepresentation.BreakdownChartUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DataRepresentation.BreakdownChartUI.html",
+          "hash": "y86skOI07QGMqjPg7Nwm4E46EW/lME/qpPlJlh5Zb/Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DataRepresentation.ChangeMeterUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DataRepresentation.ChangeMeterUI.html",
+          "hash": "GTqRsd4f5J+nMHhitbe29LRatRCd6yu/buyIBAMYzcg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DataRepresentation.IRepresentableNormalised.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DataRepresentation.IRepresentableNormalised.html",
+          "hash": "SHdkc+nzrgufJI0AvqLEsT50qyj5Awb1BPYvxmoXO/I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DataRepresentation.MeterUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DataRepresentation.MeterUI.html",
+          "hash": "faU4dPwVjP1kthA1YtzhsWF5conZyuFsoE1Obsx3s2U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DataRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DataRepresentation.html",
+          "hash": "JQqf8aRrDHLJQCDRUgm23Zi+yae++Gi5nfMLAPBMSMk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DecisionRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DecisionRecord.html",
+          "hash": "32joLO5OspfVrjoG8Kj3hlGx9u2zMSVPhvOnHw2Woek="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Detail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Detail.html",
+          "hash": "5esD5bS7VFaQ9NJDyIZN7BET4VI0uAKObSlc9XCdydE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DetailGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DetailGenerator.html",
+          "hash": "THLuIiBhRSLzVrU/BL1x4Udzh0XTY0230c+mCVIskTI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.DisposalMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.DisposalMethod.html",
+          "hash": "1j69TAkn9hskoCl+g2cvtxbr2ZqY/gGEqrYpREzxOXM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.Document.html",
+          "hash": "dakZP46w1/oj/KWjhN7nhlwxJH3cjbbA4GLSAV1uP3I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.DocumentSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.DocumentSection.html",
+          "hash": "8ucyt6na58XcZynzLBlIvfXYzHTiuIlysf47N+0hlb8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.MaterialsSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.MaterialsSection.html",
+          "hash": "t6Kpgvhfgva5Gx9DPjHhcML88UIdec33k5DLlcWJIKk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.NewsArticleDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.NewsArticleDocument.html",
+          "hash": "TdNdd7KCXyWe/JVB1gmEWRcr0mxmwR15e7uwxorHITo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.ProductSummarySection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.ProductSummarySection.html",
+          "hash": "hl+bwCAHK3yKKNaaOFQstHVaB8EfelD/NXPIwC7Vl9k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.ProposalDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.ProposalDocument.html",
+          "hash": "893CxdbVBaAPpMkL4ZaiPeSbPcy5IAr+OwWrNVLh+8Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.ProposalSummarySection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.ProposalSummarySection.html",
+          "hash": "XiEDjOy3ygeu/d+PeOyrJCnkW+0FnI2W9iaSd1gekIA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.SpecsSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.SpecsSection.html",
+          "hash": "Usb/oEWh+qdsJQLE+27jOOHE+mFAmF1jLxhmuyYC3VY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.DocFullUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.DocFullUI.html",
+          "hash": "yLoy3gNJJOf+HN/SALHF35XIqgY+DUOQVowR9x2gQRQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.DocMiniUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.DocMiniUI.html",
+          "hash": "JcnzeRHBnQNNVbx8rIrzbk75cFobg5AQSSpM5AJkZyI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.DocumentDetailUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.DocumentDetailUI.html",
+          "hash": "cv5LQFLUxHPOXuHSjhC3S4gOKy4NDTDAg13ERtbsPx0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.DocumentUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.DocumentUI.html",
+          "hash": "WdUrF2HQZIEpv5XPPTVLt+j9GIfrTCpV+vJHHkHQ51E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.MaterialDetailUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.MaterialDetailUI.html",
+          "hash": "n3vCm1t09Nc7zOgI0d61NOu8hkU4b6pXESWDN3qgyhk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.MultiPageDocumentUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.MultiPageDocumentUI.html",
+          "hash": "7ccnmQg8Okv+QADMJdnbRZZWJcR6r0EJ6p/lAfKDL0U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.NewsArticleFullUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.NewsArticleFullUI.html",
+          "hash": "mkRNsk2EiBs6uECKPdP0D6GF2m3FK88oTW00QRmmIP4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.UI.html",
+          "hash": "M5EVOW7jovGWreomWnPCok4FCVn1cutTJ4M4ITFrW50="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameDocuments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameDocuments.html",
+          "hash": "djq6BCha4L4AKPZb75hoC1RjP7u0f/l/s3ekHrBJcrs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GamePlayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GamePlayManager.html",
+          "hash": "/qgPT/5s+WIqL2Y3N0pcmj6hbX7A6L8sQ2Y4WCHyFTE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameResource.html",
+          "hash": "JHc054CDTGDN+3DdAgRopT7phUz3hL9wNcLJ2D63Af8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameState.html",
+          "hash": "GwSgNwWBpoNC61udV9Tglc+EvFkQOT/auuNcaLqrYLo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateChange.html",
+          "hash": "wp56qIkIRcGN6Icr/R1poAxcM6yIpptc1/4bpfiiBtI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.EnergyConsumption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.EnergyConsumption.html",
+          "hash": "ygNL7NVaBCn85PMTJ1v/uNSZ9BUlFk9EbZE6rK+axIE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.Funds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.Funds.html",
+          "hash": "cP8J+g4YWspWOk2/8pMe9uabADE4RLZqYqjknKYHlVo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.GameStateProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.GameStateProperty.html",
+          "hash": "L9L4coa5qNndiPJ+IJogrVH7876ldt6yGBWMAO1koIc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.IEndOfLevelHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.IEndOfLevelHandler.html",
+          "hash": "y2HqtXblHcbNOzo9nzmICNQVvCc0VPV3h0Qa/nldQlY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.InfectionRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.InfectionRate.html",
+          "hash": "sBjelTghz05CQaXZNLcpMFRwtyjoFwQCXqqn6tFNwLY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.PopulationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.PopulationState.html",
+          "hash": "QhK2J8T36/pIfm+uDwAkpKcxqBfUP6uhwSQEKidSGXI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.ResourceConsumption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.ResourceConsumption.html",
+          "hash": "/eI8vO2J1b8LLNiruCniter3UnGY4QH+e7wqUg05qyo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.TimeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.TimeState.html",
+          "hash": "6kwffooyiItV+JPOjN/Ez8URGxFsNUiKWKeR6iADqHI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.CalendarSquareUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.CalendarSquareUI.html",
+          "hash": "i3KYfnQ6GcQRTglUrrX6ocwN9tzgDPMk4bNM3F8ofzk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.CalendarUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.CalendarUI.html",
+          "hash": "YaK/J0hKVnn/OuFE6nIpdPtKasqoKyrmsc4J4iI+34U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.ClockUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.ClockUI.html",
+          "hash": "APrvSQzt2nScZwgKzljlF2ybuQONMbFHFCkE52TYNnE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.FundsUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.FundsUI.html",
+          "hash": "l05p1DZoqsltlUlfdZQm67JaLTGdX+9+ER7QyP6+3rs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.IWindowViewable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.IWindowViewable.html",
+          "hash": "AYxT9//2U/eIb+k6EDsPkShWplLoWv12V/7idrnboQM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.WindowView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.WindowView.html",
+          "hash": "TxSq7LBg6q0yyWH7T3iDUElunmCiLrB/wczBlHKF48Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.UI.html",
+          "hash": "oWKWGtUULC02zUA3PRH9tsQr35M6jc7N8bGmQLuz5kY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.WasteGenerated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.WasteGenerated.html",
+          "hash": "9fOeXxXq5xvGxcarhQSqQxd2+GLkjTSA9UAOA517wCk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameStateProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameStateProperties.html",
+          "hash": "zyhKOc7ZF2IZS+GZlXmWDfSeSQtcwau1kr30qNXBdSQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.GameSummaryMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.GameSummaryMenu.html",
+          "hash": "ENCI6DRx9ps1+EO5QK/0fQE382rz5lWJvT+7upQOc84="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.History.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.History.html",
+          "hash": "F2sAgZ2l5XffQHGNfgVL+ON3NCVU5G0JU99GoMs9Rbw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.HistoryViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.HistoryViewer.html",
+          "hash": "4ZeUT9u6N67AktUYEZmDzepbtNMQRSnTqTOpS9rsvjQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.IConnectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.IConnectable.html",
+          "hash": "uQcMrfSk8HKXOYwZ3xRa0J66m/97XhOyl+vQ/ooOOuc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.IMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.IMenu.html",
+          "hash": "Cg4KctU95wAdeoC+nRVoUz/xvRkrCzGoQqhXwZeMkZ0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ISerializeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ISerializeReference.html",
+          "hash": "E7ITY7OtzDi5qvKtMVZ8AKmg1Tq1Kj5B82XGjtRY94I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ImageScroll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ImageScroll.html",
+          "hash": "VA+t3IpW5UVjjG/k0Q4DMzZKxAZXZdvqft2VbUFlpJM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.InspectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.InspectionManager.html",
+          "hash": "X0LTXovxcyh3/jPpPXhAwfpOSqqXsulEo15Xb1MTE68="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.LevelRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.LevelRecord.html",
+          "hash": "z2ao8FN6vwNRxrN0NMpbhrKVhV02XylMVDNHljqZ3pA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.LevelSummaryMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.LevelSummaryMenu.html",
+          "hash": "4bCuZebTKkZTYZFK22eY9PjSr1rmPlltnbOMsfTZhqU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.MainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.MainMenu.html",
+          "hash": "KTb3jh1ATwmV8b9U9/TbYXdLO3u757q9NApqA4siJcc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Mask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Mask.html",
+          "hash": "fAp43M2xwfqtSQcbtVIw9MNqOLPAxp4dqORja6twHkY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Materials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Materials.html",
+          "hash": "8N0ghvmP7xh2k1fBlchkaM9ZTF5ALEUpiACdVE5pUlw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.MenuManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.MenuManager.html",
+          "hash": "a5Ft0CrAcXQ2e3kJNYvMKCxnoG9bai61Pdv/mrvjRxc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.NewsItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.NewsItem.html",
+          "hash": "0VlpfOaw4jyjk7eDJ3gnfqZfpPCdaula4i9SCQ16IP4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.NewsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.NewsManager.html",
+          "hash": "t2OgO3pQoVylRZ9h10A7E+uW5A9vQSsTy+GylkzKjpc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.OverlayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.OverlayManager.html",
+          "hash": "tdWg8OBYRIINL0uRNZizF7LD6gyjg52prYooShJV0GM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.PassThroughUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.PassThroughUI.html",
+          "hash": "TDyQBPWh8cdGEjvfOmnB9EJHghGRllsL2aMpMFuGR2M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.PauseMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.PauseMenu.html",
+          "hash": "ZLywxbmFQBw1mYxxCSY5RJMkdNbbKDI9GzlWdoyAfj4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Product.html",
+          "hash": "9/2lW8wBM8ABxiNpSF/H0RZCXR+zgN6LDYNquly5yKw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProductGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProductGenerator.html",
+          "hash": "zwLxyOVWWK7Gt0waPah8mAVF1dlx5Ewj2MTo8BMERxc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProductMakeup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProductMakeup.html",
+          "hash": "2W6tH04StfKgVnU/hnVFS4aqWG2fRBP6yRp1qYE+oow="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Proposal.DecisionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Proposal.DecisionState.html",
+          "hash": "V3+BICaj13q35Zhpx5Z1zhYLtcUROF4Cd3qBacrBSis="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Proposal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Proposal.html",
+          "hash": "O88xnO+iX/mJHCwsua30NL04vGL+7hIZy7rqQdPpJow="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposalSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposalSequence.html",
+          "hash": "eSPp1/9Dgg9y+tRaGGVpFMBOnP40KFuytKvgdgH2s0o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposalSequenceItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposalSequenceItem.html",
+          "hash": "M+sNw077ZVZ4hp/NXl8sQwsPwiPvLLeeFmzBmqzQTGA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.ForcedDoubleCheckBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.ForcedDoubleCheckBehaviour.html",
+          "hash": "gSIAp28xhPiEjDDD+WJ1VsYzIrlmtM4wEQ6r2hjRIZA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.GameOverBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.GameOverBehaviour.html",
+          "hash": "yJsSCNxfuhivbgZ0dPkbAlEqN46fX5pZWcwfDd8KiHI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.GenericScriptedProposerBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.GenericScriptedProposerBehaviour.html",
+          "hash": "TUWH2v0xAu0ZrUaW/MZx1Pe7M/3Fird58bYuGG2dS4k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.ProposerBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.ProposerBehaviour.html",
+          "hash": "BPWOuaFLwxOQV0DG1+CYqeIxEGxU7ur87s8PoXStwxc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.TutorialProposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.TutorialProposer.html",
+          "hash": "C1doYBnZlTVzlTuvUIV1+mWBf8VyA8vA6G9fZ0WG3/c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerBehaviours.html",
+          "hash": "7ZGQFEE+l7+oFcBDwlGWkgulqlUkzwEurRkOUmG8jak="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerHistory.html",
+          "hash": "6IkH7Fxj8EcwgpllnlF2KLDXPxZEnTBzLwY7xZplPLA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerHistoryDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerHistoryDictionary.html",
+          "hash": "tEj8RNingRDK2OxEGvsIxs61fl1RalkaeYxNZIqzYro="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerInfo.Emotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerInfo.Emotion.html",
+          "hash": "MIGyb25UqQHoufDLkI8rmDjRbu9eaj72uZzfsFtHVk0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerInfo.html",
+          "hash": "RgCSECgi6AjJ/c7apI3BZOQv2k0Dp+5p+svXH5WkrIo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerManager.html",
+          "hash": "TAUoLyNIZ5Vtk1C8H3f3HP+JWCi9aQ1Sl2ghT2XXH/0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ProposerUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ProposerUI.html",
+          "hash": "umuV6vzpDaJSt83NscO/A1WKKLR/V8PPB34z5QzLXPo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ResourceFloatDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ResourceFloatDictionary.html",
+          "hash": "iHHYKtyU5p9gI1Iq59Wl0TpMKKvhJHJxYFAMEjA5k2A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ResourceUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ResourceUsage.html",
+          "hash": "N9DEsa2/vE37o/Hl0N7GMLWtr5kqiATJOu0IsUyyhyY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.RightAngleLineConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.RightAngleLineConnector.html",
+          "hash": "DNKiiqGHUOsui5iMJlmRRwWeGty/ALLviYMQwPGHZwM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.SaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.SaveManager.html",
+          "hash": "7IPR0Ei3xeihFhlF1Tcv7AfifLEBWuJrio+Hha5/1ek="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ScriptableObjRefDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ScriptableObjRefDatabase.html",
+          "hash": "puE3c3Z4da1feOA855D1VKhchU4AnN4DG1L6ytg88nU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.Stamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.Stamp.html",
+          "hash": "sz0sUJgXu6ptcv9vH8DoEch7mt673fuC5tUBF9aSTUY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.StringConvoDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.StringConvoDictionary.html",
+          "hash": "3gE7+SwoHsNh4psyte8jZe6K4pGhR8dUJZUJ/aoUq9k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.StringFloatDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.StringFloatDictionary.html",
+          "hash": "pHJKs06X5vEdbF2MHHxioJpb/hqnzGcw6lYo9dbp3bQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.StringGameStatePropertyDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.StringGameStatePropertyDictionary.html",
+          "hash": "X44ZmNlCZOPKpqcra+SS9A12GdR4vtw7viK54yGaHqo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.TestClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.TestClass.html",
+          "hash": "+3FXj9A5ytwg8USCPUJP1ZyufUxEOHc6jmNnYDqtsmg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UI.ScrollButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UI.ScrollButton.html",
+          "hash": "X+M8Ifz3gI7FrGFKa1ZTl80v6rbZrev+Je/ZJtQ2idg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UI.html",
+          "hash": "OHizcgaGhkMqe9Jo3irFTk4s+sgaeugNBY2ebImo2kY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UnitUtility.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UnitUtility.UnitType.html",
+          "hash": "10NnDLaOgISuildpenDGPw3LG359gIf1uj0QL1/uXi4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UnitUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UnitUtility.html",
+          "hash": "g9306RiogZFAryF/DIoJNBLRH9eVlZTfmffHaMsYRrM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UserArchetype.SizeMagnitude.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UserArchetype.SizeMagnitude.html",
+          "hash": "rIgeWBS947DLcv8cSeRm8hi7RRJx3o2cb5S6cB5YajU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UserArchetype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UserArchetype.html",
+          "hash": "GhoaQHeHQRgMApfz8Gt6QaSi6L0BmJEqe0lGAO6ImBU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.UserGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.UserGroup.html",
+          "hash": "P+e2AaMZmjEYP8TLr+NUR91VhDoUuqTwonvHJ9DlUnA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.ValueType.html",
+          "hash": "GuxkNn3hqJnRU0iClYLpJ8sYwdZryaIbIGrkubi9CuA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GDA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GDA.html",
+          "hash": "G2oP+GUNBkhX00FoqfipZ9fh4Uz8XqP7Zn1mBTOX4aQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.GameStateConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.GameStateConverter.html",
+          "hash": "4IRLp0J010y/iYGSzwXeoKVxsGWXBhhGMy7SBXNP8Hk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.SOCreationConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.SOCreationConverter.html",
+          "hash": "mwwKy9320HyhioiE2ClHUwENdHplhxAGzh9lkQB4cYM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.SOReferenceConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.SOReferenceConverter.html",
+          "hash": "G7vKRsyzKYO/xtxqxXG0oRmLS0vAi2Pwi/4ZWqBbEkA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Newtonsoft.Json.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Newtonsoft.Json.Converters.html",
+          "hash": "GwgJztvQ2sRQf4VOQUFnE/7ctL10ynpAMQwQkcTqN3U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark01.html",
+          "hash": "eWRwxDGtuROQyMtCeqaNlr/Ia4oNyfOmTCZSGbfsywg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark01_UGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark01_UGUI.html",
+          "hash": "LpX7kKTqsPjvkIT014zOTYEByNWpPcZyLT45gGYed8A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark02.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark02.html",
+          "hash": "AZQkP1FL8fGLYaNCTlpVtBoPbUoZfi6L0nRku2ejqOQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark03.BenchmarkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark03.BenchmarkType.html",
+          "hash": "cW7QoSHBe/wxOHdfJndzBGkLH7nyhyDa84mfPH7fk+Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark03.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark03.html",
+          "hash": "EcnmrhwYHHSAaqloufnN6tVnXMRMrXwKeI8sqXJuySw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark04.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark04.html",
+          "hash": "ITM++huF8ULhAmQb2484+VL3PxVaVH43f9pXSJ6ZAMg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.CameraController.CameraModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.CameraController.CameraModes.html",
+          "hash": "V7co0VA/PwrkOPIIDGwRZHEKeFlb3ekfZ7a7754AbMg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.CameraController.html",
+          "hash": "0IAIZSXgjVMrAxEZefw3Y8bPGWaVgoCmrJdUl6cUApM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ObjectSpin.MotionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ObjectSpin.MotionType.html",
+          "hash": "09EswJ6BfdlORVFZ3SNPcfeyum5q5o2JmEQrdvW8lWk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ObjectSpin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ObjectSpin.html",
+          "hash": "cffWGZht0LxFQLQyVoS8vFX4tntbWaL7ZT4pdcbzgOU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ShaderPropAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ShaderPropAnimator.html",
+          "hash": "OkKq5pWGz+kpbzvRKpHfEOnYqblejzgOKgcyi3eYAtg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.SimpleScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.SimpleScript.html",
+          "hash": "fB6QCnnx6iEfBNqFt0NUon784rfy5ke/Zt0h4xzpkwM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.SkewTextExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.SkewTextExample.html",
+          "hash": "gCwxm3ANbSaJWqwv35RyOTbDJ5HiL3cJswRokuffVqc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.objectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.objectType.html",
+          "hash": "4pz7RwZUfHDlQk/qUb9VEy+CpjUjRGIwcilnhFdG8wE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.html",
+          "hash": "xzuDeabQJX3V08kWRAQ4e1qE4RJIB6pGqCp5gVHdUzI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.html",
+          "hash": "BW4+I9+ABJnLK0jXp2m4+XaQZUR4f6c4EvatQ4KvEBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.html",
+          "hash": "VrB2i0zwA6KVsgdulBNyh1SCHZ4AVqttjRZ++f7rx98="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextEventCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextEventCheck.html",
+          "hash": "WvEKUMbO+gwnv7xfChtfQeQJb89xSA1/A7vfFLC0mwI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextInfoDebugTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextInfoDebugTool.html",
+          "hash": "bdAYJmlH02MF7zbxezYYdEjuVPMbdG3ByMOMuwTdw4g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextSelector_A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextSelector_A.html",
+          "hash": "CY8f2ycHU467mQKULISrqN/MoUI0Kr71LoWjk1mnu48="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextSelector_B.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextSelector_B.html",
+          "hash": "SpaNcxpCWxBlbSCP3FVDQU0MfmMzmx7pCWMaNv1UJTM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.html",
+          "hash": "XBG3mKSt7QXQOM+8bDLTGqQoY2p+nZCJnwKMpJHojKY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.html",
+          "hash": "OGCnXSeq0wYTDE/tjelBAihCAnXmoV0e83wGrXTNwbk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.html",
+          "hash": "DsvXaTGYF+3mwLlv3BA8pN7rmM4KkWaLeOEzHCnpkSU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.html",
+          "hash": "EQaCetcUXXosyLoItpopN6aC43sLTJ3v5qulujy2UmI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TeleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TeleType.html",
+          "hash": "cgNq1Mwh9wlBXPadpiPe+mJfPHu94YWj/IDhOEq0qZA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextConsoleSimulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextConsoleSimulator.html",
+          "hash": "SKgd3vHZdgT87o+KG9qW+Tg8VkXGSb16Z3UZ9bKAIOY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextMeshProFloatingText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextMeshProFloatingText.html",
+          "hash": "ByymVlM5m6qobRCiKOQ7i0Qkn6e8NuPsceykCapPO9M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextMeshSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextMeshSpawner.html",
+          "hash": "FlNtfqhYwsQoVbRaIYcjyzmdJA/UOqUsX37Ui9Ki97E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexColorCycler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexColorCycler.html",
+          "hash": "fa2M52tsQjCaBx3+kfBsRqm6GoehYsWmPZxVv9uwQ5k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexJitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexJitter.html",
+          "hash": "NttyEsfRDAG6rb7clMnxSpqW0sTY3XMvXhsQQ9TzBLg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexShakeA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexShakeA.html",
+          "hash": "vYWzC1JAQ6WLbjcYgfa06SInCgCxkrV40QpBMvBJsTA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexShakeB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexShakeB.html",
+          "hash": "BPxTUHpzF1y2sAR+gI9vYdSyyejwHF6NVn7RLp05/mk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexZoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexZoom.html",
+          "hash": "s2x8iqylz2ebrJoSYwL8G8LMm7u9pQr1PmolWzMaaTQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.WarpTextExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.WarpTextExample.html",
+          "hash": "pKRRduQuEV2sSvZ8iAGuVhQyWR1x5rP+jCURNXErIKE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.html",
+          "hash": "Ncx70L9TjlriZ9Ju5xlqA0JlTmHhFT439ogdAp8GvS4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_DigitValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_DigitValidator.html",
+          "hash": "dyotTN6kEb9pzdcgCcuRMKVxem+xaL4LWfTQYgXIQIw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_PhoneNumberValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_PhoneNumberValidator.html",
+          "hash": "2/cCg4UZkkIYEuRR+abSt0LzSAYPt3lC8ZKeW2epWYw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.html",
+          "hash": "ceoWUn/BhCE7Yr2mUXTDkZpe9LAIf3l6/h+ITy91DLk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.html",
+          "hash": "vKVUY7tn7Ea1l05jxD596Y5w9q7naEl5JB+3md+hPjs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.html",
+          "hash": "z8yOUn9BeIZOyslGpPFFbPf6RToMRVqkJK32I1VxQec="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.html",
+          "hash": "7MY57V0VcHHyu9SQwmY1cdguDEmlbTj8sPlqSJg38hc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.html",
+          "hash": "Sd/HxIm1jKoBKa2bgkPFpcMWySHyz4XNxIFE60/fF9s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.html",
+          "hash": "J6jyzEH52HjTI46Eonq35r83z4OQv3wMCZ0lGuFZTMM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.html",
+          "hash": "Wh0e6uwFWYk/nC2wGy1f2U0BdUWl2GqYh1HYP5payXw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniversalRenameTool.INameWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniversalRenameTool.INameWorker.html",
+          "hash": "xX+7pYxRIQ942sqPNYXBfoAWDcJW838a/4VZTAwHuXg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniversalRenameTool.RegExNameWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniversalRenameTool.RegExNameWorker.html",
+          "hash": "QN17wy+TSUCN4gjO2wBZyqWkMcvdn761WjS3sw2ar+0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniversalRenameTool.SceneFindTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniversalRenameTool.SceneFindTool.html",
+          "hash": "ZaCpLx1IsXmAKBeM+ngq9donWo408sSPEbhqCF/l6uI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniversalRenameTool.SimpleNameWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniversalRenameTool.SimpleNameWorker.html",
+          "hash": "97p6+EKHrnM9DBc1dB5JFv17pE7SPQLGtgou0DHMVlo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniversalRenameTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniversalRenameTool.html",
+          "hash": "4ax55cJOH0nGt1ofcT8OzCyeeV3LVMaCAC9bpRNPa/4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "2LOywYbZWJxMgvHer0Tv3llFJVvofQ2iYvv3Nt+pY9Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "hBn1NXS38Di1vO62N0svEwalME2DWDoJqivddfSpQW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConversationUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConversationUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConvoPanel.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConvoPanel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConvoUIManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConvoUIManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CrossFunctionalFlowchart.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CrossFunctionalFlowchart.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CutScene1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CutScene1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CutScene2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CutScene2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/CutSceneManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/CutSceneManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DocFullView.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DocFullView.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DocMiniView.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DocMiniView.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DocumentManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DocumentManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/EnergyConsumptionUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/EnergyConsumptionUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Funds.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Funds.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FundsUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FundsUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GamePlayManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GamePlayManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GameState.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GameState.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HealthUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HealthUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HistoryViewer-Component.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HistoryViewer-Component.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HistoryViewer-Hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HistoryViewer-Hierarchy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HistoryViewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HistoryViewer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HistoryViewerScene.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HistoryViewerScene.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MenuManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/MenuManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NewsManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NewsManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NewsUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NewsUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/OverlayManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/OverlayManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/PredefinedStateChange.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/PredefinedStateChange.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Product-Makeup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Product-Makeup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Product-Properties.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Product-Properties.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProductGenerator-DetailVariance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProductGenerator-DetailVariance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProductGenerator-ResourceUsageVariance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProductGenerator-ResourceUsageVariance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerBehaviour-Convos.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerBehaviour-Convos.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerBehaviour-DoubleCheck.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerBehaviour-DoubleCheck.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerBehaviour-GameOver.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerBehaviour-GameOver.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerBehaviour-GenericScripted.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerBehaviour-GenericScripted.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerBehaviour-Tutorial.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerBehaviour-Tutorial.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProposerUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProposerUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ResourceConsumptionUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ResourceConsumptionUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ResourceUsage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ResourceUsage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-Conversation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-Conversation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-Create.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-Create.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-CutSceneSequence.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-CutSceneSequence.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-GameResource.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-GameResource.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-NewsItem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-NewsItem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-NewsItem2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-NewsItem2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-Product.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-Product.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-ProductGenerator.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-ProductGenerator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-Proposal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-Proposal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-ProposalSequence.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-ProposalSequence.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-ProposerInfo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-ProposerInfo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-UserArchetype.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-UserArchetype.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ScriptableObject-UserGroup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ScriptableObject-UserGroup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Summary.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Summary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TimeState.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TimeState.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TimeStateUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TimeStateUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-Conversation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-Conversation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-GameplayManager.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-GameplayManager.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-Generate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-Generate.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-GenerateUser.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-GenerateUser.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-ProductGenerator.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-ProductGenerator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-ProposerBehaviour.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-ProposerBehaviour.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-ProposerInfo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-ProposerInfo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-UserArchetype.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-UserArchetype.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-UserGroup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-UserGroup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-addSequenceItem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-addSequenceItem.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-attachProduct.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-attachProduct.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-attachProposal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-attachProposal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-attachSequence.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-attachSequence.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-attachUser.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-attachUser.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-expandProposal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-expandProposal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-mask.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-mask.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-proposal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-proposal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-selectInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-selectInspector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WT-selectProposal.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WT-selectProposal.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/WasteUI.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/WasteUI.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop6a.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop6a.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop6b.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop6b.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gameplay-loop6c.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gameplay-loop6c.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/scene.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/scene.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "YZckh8K8oqHtqLL08SjfS1rMnqtC+GDRiDmxnefTTKQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Conversation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Conversation.html",
+          "hash": "AKRiyfjkAs3Vq82h85D8iDtkqAfQbp8xgKov2uoTpmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ConvoUIManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ConvoUIManager.html",
+          "hash": "XyIK64UAhrmTAAxw1Ui1UCtUMKGa27z9V6/yr46q2+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/CutSceneManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/CutSceneManager.html",
+          "hash": "3ikhn9+x6PiVOU/utr76P/6CrYAsyAlrPZdCWwHlWxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/CutSceneSequence.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/CutSceneSequence.html",
+          "hash": "KzX3stULH8RWINR5qjGZdxuVXMBJFaBYayNMru3SsLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DocumentManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DocumentManager.html",
+          "hash": "QRURtwr238ZLRTN8KYcwYxSX7RNHGeDkkOD8AGjh71E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/GamePlayManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/GamePlayManager.html",
+          "hash": "OwD69eGnzRtLNMW7fluOQZXMPsIr43mH8jyJzPPO4v0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/GameResource.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/GameResource.html",
+          "hash": "QYpcmPwoQ0fTCFXeum52JjX+9mbS5et4Nvw28zzbx2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/GameState.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/GameState.html",
+          "hash": "k39VR97K1Fkv5Xy0bN7xr13u6Gz5jNMhRycafVlCbP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/HistoryViewer.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/HistoryViewer.html",
+          "hash": "RPdKKmdk1im26SjA4UdAvmlsWiMErT4vO1WEmiY10z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/MenuManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/MenuManager.html",
+          "hash": "xGHI/vk+2jGlq3x/PYX234BpSSDRg2XYGeJAflSckUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/NewsItem.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/NewsItem.html",
+          "hash": "zDGxaxpau7BuFfhI9FwycGCkG8zkGNP450EEZW219uY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/NewsManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/NewsManager.html",
+          "hash": "XG1WpmKjhWGaMm6GOKfOzWEooYhqtb0r1qtZRFchxiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/OverlayManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/OverlayManager.html",
+          "hash": "HmqXv3aeX94N9qQ+YllagsqB3S2hcZC6szAzQv3u4DY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Product.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Product.html",
+          "hash": "+g7sYKI9ySf6Ja9g2nd5UPABA3VAO4Z/yGLQGaFVG4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ProductGenerator.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ProductGenerator.html",
+          "hash": "imSiart05FBxiaK8VffpK5HtsWmyW2dgpFlDSHKsCqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Proposal.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Proposal.html",
+          "hash": "C9fe7be5O2MaiDZhi9mVVf+HHZStrEhr0n/0HtIo5+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ProposalSequence.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ProposalSequence.html",
+          "hash": "hZwmytB0PWDM6isENpfjRk7HOXkaZpPvhNAVZyZ1ADU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ProposerInfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ProposerInfo.html",
+          "hash": "DuKW7lqU3nQNhbw19WqeKHUm8cmDhpsCvK7JIepO6CQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ProposerManager.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ProposerManager.html",
+          "hash": "yeZ/qX4vZr9xfIWh09PA0vcFKVIABm+Z4xQkS+ddlRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ScriptableObject.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ScriptableObject.html",
+          "hash": "+q37i/8OVSp/MEbgwAO1+c0Kx021vWE1099wNRSrG84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/UserArchetype.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UserArchetype.html",
+          "hash": "sGcVy7j6PaHypncCo9uzZ/73x+Qr8w3cDhmAG+xQl0Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/UserGroup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UserGroup.html",
+          "hash": "se29bq2lgIfppQ0bQIWcPfi2amzgQdG72QneTOeJA54="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/better-analysis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/better-analysis.html",
+          "hash": "OcEe3Gnz5uSRypR+/70gB/iOzu/GTf1z8cECU+HIM2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/better-design.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/better-design.html",
+          "hash": "cZfvnPxgLRwoGqakyecWM1bQZse6EfdB/ZwrfuHHpws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/better-generators.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/better-generators.html",
+          "hash": "p9XI2eUwR2geqcoF7A9jnON87vRed3tMA7Yk/W02Dis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/currentGameStateProperties.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/currentGameStateProperties.html",
+          "hash": "AcrAcYcNNOYG/bOwz2nN5FQHoBOQuYvpTJ3eehMdEaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/currentProposerBehaviours.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/currentProposerBehaviours.html",
+          "hash": "XpeKC47XqwpUG849P48s2tcLnDsWDDk0ZbXI61Wqjxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/data-logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/data-logging.html",
+          "hash": "2rRAcue+4F8N8s2QkLnpOw80SaF3WN1tXBxQmyo/dIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/further-work.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/further-work.html",
+          "hash": "NDZF84JnX/7z3Yu6caBNGkaSsvl6Kqdwi+Ni22Wx11g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/gameplay-intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/gameplay-intro.html",
+          "hash": "ZTqSap5o8rhVhUIQqq57G++Q4t+N1DLXyYlf92PYqqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/how-to-use.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/how-to-use.html",
+          "hash": "ZCnhNX28ZmLoORB5s6FpPHJFStgrel38RyefnCW8NcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/interaction.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/interaction.html",
+          "hash": "nlwh8kL4sWb8zYLnEVhStkaLUboQOUAFWwlTn1sxRBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "/ElEw38cdHuUeyJVjyVUy4R5NRziRX3N5UPx5au+gEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/more-proposers.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/more-proposers.html",
+          "hash": "Wk0F4mWyqPqRsB4BX40ZDT9GqkD3SfimUfXElVpTbjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/project-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/project-dependencies.html",
+          "hash": "MToAOf7Ew2LxdC5jozrffeO9d7WE+hBeiLBlAZib6Es="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/saving-loading.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/saving-loading.html",
+          "hash": "U0vrCWEH5pCVDTpjALSxUtJUlhDAZQM7OeVac0fp33A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/sound.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/sound.html",
+          "hash": "Q4npMVKoJqxGgx/k1h6X74/sHduiHoMLcDM5V5NLITA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "AGltV7Q65h3LO19JoOHJvAkWqZx0Buqn9ibIy34hyLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/version-specific.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/version-specific.html",
+          "hash": "X8z7wmBfGRYEOK48pdsyUeXKZQnoOC4MdIkvtYazRIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/walkthrough-proposal.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/walkthrough-proposal.html",
+          "hash": "aPZSwPp+it69KgjtanmobAmcmO0hBt85nUSC9aJ/DqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "xVYXEp8xHoTgTM+RLYWpRW9LD7+1gf2kSYQPOaY5/R4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 41,
+          "skipped_file_count": 40
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 172,
+          "skipped_file_count": 172
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

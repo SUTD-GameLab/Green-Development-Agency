@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Product Scriptable Object </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Product Scriptable Object ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Product.md">
+<h1 id="product-scriptable-object">Product Scriptable Object</h1>
+
+<p>A Product scriptable object contains all the relevant information of a product included in a proposal.</p>
+<p><img src="../images/ScriptableObject-Product.png" alt="A Product Scriptable Object"></p>
+<p>Generally all products consists of a few parts:</p>
+<ol>
+<li><code>Product Type</code> - the product type, shown to the player</li>
+<li><code>Sprite</code> - a picture of the product</li>
+<li><code>Disposal Method</code> - how the product is to be disposed of after its lifespan (currently unused)</li>
+<li><code>Product Makeup</code> - what the product is made up of</li>
+<li><code>Product Properties</code> - other relevant details to the product.</li>
+</ol>
+<p>Optionally, a <a class="xref" href="ProductGenerator.html"><code>Product Generator</code></a> attached and used to generate/regenerate a product.</p>
+<h2 id="product-makeup">Product Makeup</h2>
+<p><img src="../images/Product-Makeup.png" alt="A Product Scriptable Object"></p>
+<p>The product makeup of a product describes how a product is made. It is made up of:</p>
+<ol>
+<li><code>MaterialComposition</code> - a list of <a href="#resource-usage">resources used</a> in the making of the product</li>
+<li><code>Override Production Energy</code> - whether to override the calculated energy needed to produce the product</li>
+<li><code>ProductionEnergy</code> - the energy required to manufacture the product.</li>
+</ol>
+<p>The <em>total</em> energy needed to produce a product is calculated in this manner.</p>
+<ul>
+<li>if <code>Override Production Energy</code> is not selected: the calculated energy required to obtain the resources in <code>MaterialComposition</code>, plus the value of <code>ProductionEnergy</code><br>
+(i.e. energy required to obtain the necessary resources + energy required to manufacture the product)</li>
+<li>if <code>Override Production Energy</code> is selected: the value of <code>ProductionEnergy</code></li>
+</ul>
+<h3 id="resource-usage">Resource Usage</h3>
+<p><img src="../images/ResourceUsage.png" alt="An Example Game Resource"></p>
+<p>Within the <code>MaterialComposition</code> of a product, a resource usage is broken down into:</p>
+<ol>
+<li><code>Resource</code> - a <a href="#the-game-resource-scriptable-object">GameResource</a> scriptable object, describing the resource being used</li>
+<li><code>Used</code> - the amount, in grams, of the resource being used in producing 1 unit of the product</li>
+<li><code>Usage Variance</code> - (only for <a class="xref" href="ProductGenerator.html">Product Generators</a>) the variance of the amount used</li>
+<li><code>Wastage</code> - how much of the resource is wasted during the production process of 1 unit of the product e.g. scrap cloth from cutting fabric</li>
+<li><code>Wastage Variance</code> - (only for <a class="xref" href="ProductGenerator.html">Product Generators</a>) the variance of the wastage produced.</li>
+</ol>
+<h3 id="the-game-resource-scriptable-object">The Game Resource Scriptable Object</h3>
+<p>See <a href="GameResource.html">The Game Resource Scriptable Object</a> for more details.</p>
+<h2 id="product-properties">Product Properties</h2>
+<p><img src="../images/Product-Properties.png" alt="An Example Game Resource"></p>
+<p>The product properties are a list of <a class="xref" href="../api/GDA.Detail.html">Details</a> that capture a relevant detail of a product. Each Detail is consists of:</p>
+<ol>
+<li><code>Display Name</code> - the text to be shown to the player in-game (e.g. &quot;efficiency&quot;, &quot;humidity&quot;)</li>
+<li><code>Value Type</code> - the type of value that the detail holds, be it a floating point number, an integer or a string</li>
+<li><code>Float Value</code>/<code>Integer Value</code>/<code>String Value</code> - the value describing the detail (e.g. 5.2, &quot;very high&quot;)</li>
+<li><code>Unit Type</code> - if the <code>Value Type</code> is a number, the type of measurement it is (e.g. weight, length, etc.)</li>
+<li><code>Is Shown</code> - whether the detail is shown to the player in-game or hidden from the player</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

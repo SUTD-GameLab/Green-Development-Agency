@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DocumentManager MonoBehaviour </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DocumentManager MonoBehaviour ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DocumentManager.md">
+<h1 id="the-document-manager">The Document Manager</h1>
+
+<p>The Document Manager is in charge of initializing documentUI elements. It also loads information from <a class="xref" href="Proposal.html">Proposals</a> onto the documents.</p>
+<p>The Document Manager follows a singleton pattern, meaning that only one instance should exist at any point in the game.</p>
+<p><img src="../images/DocumentManager.png" alt="The Document Manager"></p>
+<p>For each document in the game, a <code>Mini View</code> and a <code>Full View</code> need to be attached to the Document Manager in order for initialization. Read the below <a href="#the-documentui-system">section</a> to learn more about it.</p>
+<p>The <code>Tabling Position</code> is a marker for where the in-game documents should be placed when a proposer NPC presents their proposal.</p>
+<h2 id="the-documentui-system">The DocumentUI system</h2>
+<p>Every document that can be interacted with in the game has two different forms it can take - a mini view for the zoomed out portion on the left side of the gameplay area, and a full view for the zoomed in portion on the right side of the game area. These two forms are two <em>separate</em> gameobjects, but represent the same in-game document.</p>
+<p><img src="../images/DocMiniView.png" alt="The Mini View of a Document">
+<img src="../images/DocFullView.png" alt="The Full View of a Document"></p>
+<p>Thus, there is a need to link the two gameobjects. The <a class="xref" href="../api/GDA.GameDocuments.Document.html">Document</a> class does precisely that and allows the two gameobjects to be treated as one. A Document object, however needs to be initialized, and this is done in the Document Manager.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

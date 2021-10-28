@@ -1,0 +1,647 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MultiPageDocumentUI
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MultiPageDocumentUI
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI">
+  
+  
+  <h1 id="GDA_GameDocuments_UI_MultiPageDocumentUI" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI" class="text-break">Class MultiPageDocumentUI
+  </h1>
+  <div class="markdown level0 summary"><p><a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a> that has one or more <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>s.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></div>
+    <div class="level6"><a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a></div>
+    <div class="level7"><span class="xref">MultiPageDocumentUI</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEndDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_isKeeping">DocFullUI.isKeeping</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_keepSpeed">DocFullUI.keepSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnKeep">DocFullUI.OnKeep()</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnBeginDrag_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnBeginDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnDrag_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnEndDrag_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnEndDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnPointerDown_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnPointerDown(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnPointerUp_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnPointerUp(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_OnPointerClick_UnityEngine_EventSystems_PointerEventData_">DocFullUI.OnPointerClick(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html#GDA_GameDocuments_UI_DocFullUI_SetDocument_GDA_GameDocuments_Document_">DocFullUI.SetDocument(Document)</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_rectTransform">DocumentUI.rectTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_canvasGrp">DocumentUI.canvasGrp</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_parentRectTransform">DocumentUI.parentRectTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_isVisible">DocumentUI.isVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_document">DocumentUI.document</a>
+    </div>
+    <div>
+      <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html#GDA_GameDocuments_UI_DocumentUI_SetVisible_System_Boolean_">DocumentUI.SetVisible(Boolean)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GDA.GameDocuments.UI.html">GDA.GameDocuments.UI</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="GDA_GameDocuments_UI_MultiPageDocumentUI_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MultiPageDocumentUI : DocFullUI, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IDragHandler, IEndDragHandler, IBeginDragHandler, IEventSystemHandler</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_sections" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.sections">sections</h4>
+  <div class="markdown level1 summary"><p>List of <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>s to be displayed.
+Can be customized and ordered in the Editor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;DocumentSection&gt; sections</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_HideButtons_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.HideButtons*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_HideButtons" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.HideButtons">HideButtons()</h4>
+  <div class="markdown level1 summary"><p>Hides the buttons to flip the pages of the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideButtons()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_LoadFirstPage_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.LoadFirstPage*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_LoadFirstPage" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.LoadFirstPage">LoadFirstPage()</h4>
+  <div class="markdown level1 summary"><p>Set the UI element to display the first page of the first <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadFirstPage()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_LoadProduct_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.LoadProduct*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_LoadProduct_GDA_Proposal_System_Boolean_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.LoadProduct(GDA.Proposal,System.Boolean)">LoadProduct(Proposal, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Loads the information to display in the document.
+Internally, calls <a class="xref" href="GDA.GameDocuments.DocumentSection.html#GDA_GameDocuments_DocumentSection_LoadProposal_GDA_Proposal_System_Boolean_">LoadProposal(Proposal, Boolean)</a> for each
+<a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a> in the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadProduct(Proposal proposal, bool isProductA)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Proposal.html">Proposal</a></td>
+        <td><span class="parametername">proposal</span></td>
+        <td><p>Proposal to load</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isProductA</span></td>
+        <td><p>If the document is product specific, whether to load
+<a class="xref" href="GDA.Proposal.html#GDA_Proposal_productA">productA</a> or <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productB">productB</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_NextPage_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.NextPage*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_NextPage" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.NextPage">NextPage()</h4>
+  <div class="markdown level1 summary"><p>Set the UI element to display the next page of the current <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>.
+If the current section is on its last page, displays the next section (if any) instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NextPage()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_PrevPage_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.PrevPage*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_PrevPage" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.PrevPage">PrevPage()</h4>
+  <div class="markdown level1 summary"><p>Set the UI element to display the previous page of the current <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a>.
+If the current section is on its first page, displays the previous section (if any) instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrevPage()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_ShowButtons_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.ShowButtons*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_ShowButtons" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.ShowButtons">ShowButtons()</h4>
+  <div class="markdown level1 summary"><p>Displays the buttons to flip the pages of the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowButtons()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_UI_MultiPageDocumentUI_Start_" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.Start*"></a>
+  <h4 id="GDA_GameDocuments_UI_MultiPageDocumentUI_Start" data-uid="GDA.GameDocuments.UI.MultiPageDocumentUI.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Start()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEndDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

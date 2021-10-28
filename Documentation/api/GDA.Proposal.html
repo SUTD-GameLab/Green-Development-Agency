@@ -1,0 +1,982 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Proposal
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Proposal
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GDA.Proposal">
+  
+  
+  <h1 id="GDA_Proposal" data-uid="GDA.Proposal" class="text-break">Class Proposal
+  </h1>
+  <div class="markdown level0 summary"><p>Class containing all the information for a single in-game proposal.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">Proposal</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GDA.html">GDA</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="GDA_Proposal_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CreateAssetMenu(menuName = &quot;ScriptableObjects/Proposal&quot;)]
+public class Proposal : ScriptableObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GDA_Proposal_newsA" data-uid="GDA.Proposal.newsA">newsA</h4>
+  <div class="markdown level1 summary"><p>(Optional) News &quot;generated&quot; when the proposal is accepted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NewsItem newsA</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.NewsItem.html">NewsItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_newsB" data-uid="GDA.Proposal.newsB">newsB</h4>
+  <div class="markdown level1 summary"><p>(Optional) News &quot;generated&quot; when the proposal is rejected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NewsItem newsB</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.NewsItem.html">NewsItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_productA" data-uid="GDA.Proposal.productA">productA</h4>
+  <div class="markdown level1 summary"><p>The proposed product to accept/reject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Product productA</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Product.html">Product</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_productB" data-uid="GDA.Proposal.productB">productB</h4>
+  <div class="markdown level1 summary"><p>The existing product to compare <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productB">productB</a>to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Product productB</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Product.html">Product</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_proposer" data-uid="GDA.Proposal.proposer">proposer</h4>
+  <div class="markdown level1 summary"><p>The proposer that will be presenting the proposal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProposerInfo proposer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.html">ProposerInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_stateChangeA" data-uid="GDA.Proposal.stateChangeA">stateChangeA</h4>
+  <div class="markdown level1 summary"><p>(Optional) Predefined effects on the <a class="xref" href="GDA.GameState.html">GameState</a> when the proposal is accepted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameStateChange stateChangeA</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameStateChange.html">GameStateChange</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_stateChangeB" data-uid="GDA.Proposal.stateChangeB">stateChangeB</h4>
+  <div class="markdown level1 summary"><p>(Optional) Predefined effects on the <a class="xref" href="GDA.GameState.html">GameState</a> when the proposal is rejected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameStateChange stateChangeB</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameStateChange.html">GameStateChange</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GDA_Proposal_userGroup" data-uid="GDA.Proposal.userGroup">userGroup</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="GDA.UserGroup.html">UserGroup</a> associated with the proposal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserGroup userGroup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.UserGroup.html">UserGroup</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="GDA_Proposal_chosenProduct_" data-uid="GDA.Proposal.chosenProduct*"></a>
+  <h4 id="GDA_Proposal_chosenProduct" data-uid="GDA.Proposal.chosenProduct">chosenProduct</h4>
+  <div class="markdown level1 summary"><p>The &quot;chosen&quot; product of the proposal.
+Returns <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productA">productA</a> if the proposal is accepted,
+and <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productB">productB</a> if the proposal is rejected.
+Returns <code>null</code> if proposal is undecided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Product chosenProduct { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Product.html">Product</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_ChosenQty_" data-uid="GDA.Proposal.ChosenQty*"></a>
+  <h4 id="GDA_Proposal_ChosenQty" data-uid="GDA.Proposal.ChosenQty">ChosenQty</h4>
+  <div class="markdown level1 summary"><p>The quantity of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_chosenProduct">chosenProduct</a> needed to fulfill
+the needs of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_userGroup">userGroup</a>.
+returns -1 if the proposal has not been decided on yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ChosenQty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_decision_" data-uid="GDA.Proposal.decision*"></a>
+  <h4 id="GDA_Proposal_decision" data-uid="GDA.Proposal.decision">decision</h4>
+  <div class="markdown level1 summary"><p>The decision status of the proposal. Usually undecided (<a class="xref" href="GDA.Proposal.DecisionState.html#GDA_Proposal_DecisionState_Nill">Nill</a>)
+until player makes a decision.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Proposal.DecisionState decision { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Proposal.DecisionState.html">Proposal.DecisionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_newsArticle_" data-uid="GDA.Proposal.newsArticle*"></a>
+  <h4 id="GDA_Proposal_newsArticle" data-uid="GDA.Proposal.newsArticle">newsArticle</h4>
+  <div class="markdown level1 summary"><p>The news &quot;generated&quot; by the decision of the proposal.
+Returns <a class="xref" href="GDA.Proposal.html#GDA_Proposal_newsA">newsA</a> if the proposal is accepted,
+and <a class="xref" href="GDA.Proposal.html#GDA_Proposal_newsB">newsB</a> if the proposal is rejected.
+Returns <code>null</code> if proposal is undecided.
+Note that: newsA and newsB may be null themselves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NewsItem newsArticle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.NewsItem.html">NewsItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_proposerBehaviour_" data-uid="GDA.Proposal.proposerBehaviour*"></a>
+  <h4 id="GDA_Proposal_proposerBehaviour" data-uid="GDA.Proposal.proposerBehaviour">proposerBehaviour</h4>
+  <div class="markdown level1 summary"><p>The behevaiour that the proposer will exhibit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TypeReference proposerBehaviour { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TypeReferences.TypeReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_QtyA_" data-uid="GDA.Proposal.QtyA*"></a>
+  <h4 id="GDA_Proposal_QtyA" data-uid="GDA.Proposal.QtyA">QtyA</h4>
+  <div class="markdown level1 summary"><p>The quantity of <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productA">productA</a> needed in order to fulfill
+the needs of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_userGroup">userGroup</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int QtyA { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_QtyB_" data-uid="GDA.Proposal.QtyB*"></a>
+  <h4 id="GDA_Proposal_QtyB" data-uid="GDA.Proposal.QtyB">QtyB</h4>
+  <div class="markdown level1 summary"><p>The quantity of <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productB">productB</a> needed in order to fulfill
+the needs of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_userGroup">userGroup</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int QtyB { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_rejectedProduct_" data-uid="GDA.Proposal.rejectedProduct*"></a>
+  <h4 id="GDA_Proposal_rejectedProduct" data-uid="GDA.Proposal.rejectedProduct">rejectedProduct</h4>
+  <div class="markdown level1 summary"><p>The &quot;rejected&quot; product of the proposal.
+Returns <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productB">productB</a> if the proposal is accepted,
+and <a class="xref" href="GDA.Proposal.html#GDA_Proposal_productA">productA</a> if the proposal is rejected.
+Returns <code>null</code> if proposal is undecided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Product rejectedProduct { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Product.html">Product</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_RejectedQty_" data-uid="GDA.Proposal.RejectedQty*"></a>
+  <h4 id="GDA_Proposal_RejectedQty" data-uid="GDA.Proposal.RejectedQty">RejectedQty</h4>
+  <div class="markdown level1 summary"><p>The quantity of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_rejectedProduct">rejectedProduct</a> needed to fulfill
+the needs of the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_userGroup">userGroup</a>.
+returns -1 if the proposal has not been decided on yet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RejectedQty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_scriptedConversations_" data-uid="GDA.Proposal.scriptedConversations*"></a>
+  <h4 id="GDA_Proposal_scriptedConversations" data-uid="GDA.Proposal.scriptedConversations">scriptedConversations</h4>
+  <div class="markdown level1 summary"><p>Scripted <a class="xref" href="GDA.Conversation.html">Conversation</a>s specific to the proposal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyDictionary&lt;string, Conversation&gt; scriptedConversations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="GDA.Conversation.html">Conversation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GDA_Proposal_GenerateProposal_" data-uid="GDA.Proposal.GenerateProposal*"></a>
+  <h4 id="GDA_Proposal_GenerateProposal_GDA_ProductGenerator_GDA_ProductGenerator_GDA_UserArchetype_GDA_UserArchetype_SizeMagnitude_GDA_ProposerInfo_" data-uid="GDA.Proposal.GenerateProposal(GDA.ProductGenerator,GDA.ProductGenerator,GDA.UserArchetype,GDA.UserArchetype.SizeMagnitude,GDA.ProposerInfo)">GenerateProposal(ProductGenerator, ProductGenerator, UserArchetype, UserArchetype.SizeMagnitude, ProposerInfo)</h4>
+  <div class="markdown level1 summary"><p>Generates a new proposal containing two products of different families of the same type.
+E.g. (surgical mask vs cloth mask)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Proposal GenerateProposal(ProductGenerator productFamilyA, ProductGenerator productFamilyB, UserArchetype userArchetype, UserArchetype.SizeMagnitude sizeMagnitude, ProposerInfo proposer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.ProductGenerator.html">ProductGenerator</a></td>
+        <td><span class="parametername">productFamilyA</span></td>
+        <td><p>They type of product to be proposed</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProductGenerator.html">ProductGenerator</a></td>
+        <td><span class="parametername">productFamilyB</span></td>
+        <td><p>They type of product to be compared to (the existing product)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.UserArchetype.html">UserArchetype</a></td>
+        <td><span class="parametername">userArchetype</span></td>
+        <td><p>The type of usergroup to generate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.UserArchetype.SizeMagnitude.html">UserArchetype.SizeMagnitude</a></td>
+        <td><span class="parametername">sizeMagnitude</span></td>
+        <td><p>The magnitude of the usergroup size</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.html">ProposerInfo</a></td>
+        <td><span class="parametername">proposer</span></td>
+        <td><p>The proposer presenting the proposal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Proposal.html">Proposal</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_GenerateProposal_" data-uid="GDA.Proposal.GenerateProposal*"></a>
+  <h4 id="GDA_Proposal_GenerateProposal_GDA_ProductGenerator_GDA_UserArchetype_GDA_UserArchetype_SizeMagnitude_GDA_ProposerInfo_" data-uid="GDA.Proposal.GenerateProposal(GDA.ProductGenerator,GDA.UserArchetype,GDA.UserArchetype.SizeMagnitude,GDA.ProposerInfo)">GenerateProposal(ProductGenerator, UserArchetype, UserArchetype.SizeMagnitude, ProposerInfo)</h4>
+  <div class="markdown level1 summary"><p>Generates a new proposal containing two products of the same family and type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Proposal GenerateProposal(ProductGenerator productFamily, UserArchetype userArchetype, UserArchetype.SizeMagnitude sizeMagnitude, ProposerInfo proposer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.ProductGenerator.html">ProductGenerator</a></td>
+        <td><span class="parametername">productFamily</span></td>
+        <td><p>They type of product to generate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.UserArchetype.html">UserArchetype</a></td>
+        <td><span class="parametername">userArchetype</span></td>
+        <td><p>The type of user group to generate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.UserArchetype.SizeMagnitude.html">UserArchetype.SizeMagnitude</a></td>
+        <td><span class="parametername">sizeMagnitude</span></td>
+        <td><p>The magnitude of the usergroup size</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.html">ProposerInfo</a></td>
+        <td><span class="parametername">proposer</span></td>
+        <td><p>The proposer presenting the proposal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Proposal.html">Proposal</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_GetCostOfApproval_" data-uid="GDA.Proposal.GetCostOfApproval*"></a>
+  <h4 id="GDA_Proposal_GetCostOfApproval" data-uid="GDA.Proposal.GetCostOfApproval">GetCostOfApproval()</h4>
+  <div class="markdown level1 summary"><p>Calculates the funds required to approve the proposal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetCostOfApproval()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_GetCostOfOrder_" data-uid="GDA.Proposal.GetCostOfOrder*"></a>
+  <h4 id="GDA_Proposal_GetCostOfOrder_GDA_Product_" data-uid="GDA.Proposal.GetCostOfOrder(GDA.Product)">GetCostOfOrder(Product)</h4>
+  <div class="markdown level1 summary"><p>Cost of single product in the proposal.
+Normally not used alone, but used to compare two products.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetCostOfOrder(Product product)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Product.html">Product</a></td>
+        <td><span class="parametername">product</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_MakeDecision_" data-uid="GDA.Proposal.MakeDecision*"></a>
+  <h4 id="GDA_Proposal_MakeDecision_System_Boolean_" data-uid="GDA.Proposal.MakeDecision(System.Boolean)">MakeDecision(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Changes the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_decision">decision</a> status of the proposal to accepted/rejected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MakeDecision(bool chooseA)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">chooseA</span></td>
+        <td><p><code>true</code> for accepting, <code>false</code> for rejecting</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_Proposal_ResetDecision_" data-uid="GDA.Proposal.ResetDecision*"></a>
+  <h4 id="GDA_Proposal_ResetDecision" data-uid="GDA.Proposal.ResetDecision">ResetDecision()</h4>
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="GDA.Proposal.html#GDA_Proposal_decision">decision</a> status of the proposal back to Nill/undecided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetDecision()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ConvoUIManager MonoBehaviour </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ConvoUIManager MonoBehaviour ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ConvoUIManager.md">
+<h1 id="the-conversation-ui-manager">The Conversation UI Manager</h1>
+
+<p>The ConvoUI Manager is in charge of loading <a class="xref" href="Conversation.html">Conversations</a> and displaying them to the player.</p>
+<p>The ConvoUI Manager follows a singleton pattern, meaning that only one instance should exist at any point in the game.</p>
+<p><img src="../images/ConvoUIManager.png" alt="The ConvoUIManager"></p>
+<ol>
+<li><code>Fade In Time</code> - the time it takes for a speech bubble to fade into view.</li>
+<li><code>Fade Out Time</code> - the time it takes for a speech bubble to fade out of view.</li>
+<li><code>Life Time</code> - the total time a speech bubble exists, including the time to fade in and out.</li>
+<li><code>Scroll Rect</code> - the scroll rect which acts as a scrollable window for all the text bubbles</li>
+<li><code>Scroll Speed</code> - the speed which the up and down button scrolls the scroll rect</li>
+<li><code>Content Above Arrow</code> - the button that indicates there are text bubbles above and the window can be scrolled up</li>
+<li><code>Content Above Arrow</code> - the button that indicates there are text bubbles below and the window can be scrolled down</li>
+<li><code>Convo Rect</code> - the rect which holds all the text bubbles</li>
+<li><code>Text Bubble Prefab</code> - the prefab to generate additional text bubbles</li>
+</ol>
+<p><img src="../images/ConvoPanel.png" alt="The In-Game Conversation Window "></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

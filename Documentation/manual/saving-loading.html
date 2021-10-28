@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Future Work - Save System </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Future Work - Save System ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="saving-loading.md">
+<h1 id="save-system">Save system</h1>
+
+<p>Currently, the save system in the game is incomplete. This article documents what has been done what steps to take to add on to it.</p>
+<h2 id="current-work">Current Work</h2>
+<p>Currently, <a class="xref" href="Proposal.html">Proposal</a> internally record its own approval status. When a player processes a proposal (accepts or rejects the proposal), the processed proposal, the time taken to process the proposal and the <a class="xref" href="GameState.html">GameState</a> resulting from the proposal are all saved onto a single <a class="xref" href="../api/GDA.DecisionRecord.html">DescisionRecord</a> object. A list of DecisionRecords thus would make up the <a class="xref" href="../api/GDA.LevelRecord.html">LevelRecord</a>, and a list of LevelRecords would constitute the whole [History](xref: GDA.History) of the game. This history is displayed by the <a class="xref" href="HistoryViewer.html">HistoryViewer</a> for the player to look back at their decisions and their consequences.</p>
+<p>The same History could be used to load a game so that players can continue a game instead of having to restart the game each time they play. However, this has not been implemented yet. To see this incomplete implementation, look at the <code>SaveManager</code> gameobject and its associated component script.</p>
+<h2 id="future-work">Future Work</h2>
+<h3 id="loading">Loading</h3>
+<p>As the game is now, a load system should be easily implementable. The system can take in a [History](xref: GDA.History) object, and use the information to:</p>
+<ol>
+<li>Change the <a class="xref" href="GameState.html">GameState</a> accordingly</li>
+<li>Ensure the <a class="xref" href="GamePlayManager.html">GamePlayManager</a> loads the correct level/proposal in the <code>Campaign Sequence</code></li>
+</ol>
+<h3 id="persistent-data">Persistent Data</h3>
+<p>Even with a working saving and loading system, a game can only truly save and load if the data persists between game sessions. For the current platform of the game (WebGL), there are few options:</p>
+<h4 id="1-playerprefs">1. <strong>PlayerPrefs</strong></h4>
+<p>PlayerPrefs is a functionality native to <a href="href:https://docs.unity3d.com/ScriptReference/PlayerPrefs.html">Unity</a> that is normally used for saving player preferences like settings. However, it can also be used to save game data, so long as it is not too big.<br>
+<strong>Pros:</strong></p>
+<ul>
+<li>relatively easy to implement</li>
+<li>does not require user involvement; can be automatic</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>Not as secure (save would be editable by tech-savvy players)</li>
+<li>Save is lost when users clear browser cache</li>
+</ul>
+<h4 id="2-local-files">2. <strong>Local Files</strong></h4>
+<p>Another way to have persistent data is to save it to a local file on the player's computer. This can be done by JavaScript code that would be external to the game. See Unity's <a href="href:https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html">manual</a> and <a href="href:https://web.dev/read-files/">other tutorials</a> to get started.<br>
+<strong>Pros:</strong></p>
+<ul>
+<li>Save Files can be easily manipulated (duplicated, transferred etc.)</li>
+<li>Save files not tied to browser/computer</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>Requires coding in a different language/environment outside of C#/Unity</li>
+<li>Requires users to download/upload files for saving/loading</li>
+</ul>
+<h4 id="3-serverdatabase">3. <strong>Server/Database</strong></h4>
+<p>Yet another way is to store save information on a server which the game would make queries to.<br>
+<strong>Pros:</strong></p>
+<ul>
+<li>Can be automatic for players</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>Requires some form of authentication to match player to save data</li>
+<li>Requires server (additional cost and work to maintain server)</li>
+</ul>
+<h3 id="serialization-and-deserialization">Serialization and Deserialization</h3>
+<p>With a solution to have data persist, we still have to ensure that the data can be put into a form that can be saved. C# objects themselves have much information and code that do not need to be saved. Only some properties of the object are important to save, and the process of transforming an object a saveable form is called Serialization. The act of reading such data and transforming it back to an object is called Deserialization.</p>
+<p>Currently, the <a class="xref" href="../api/GDA.History.html">History</a> object can be <a class="xref" href="../api/Newtonsoft.Json.Converters.html">serialized into JSON</a>. However, deserialization is still not implemented because of difficulties with asset references. That is, the information from the History object can be serialized/deserialized without issue, but asset references like sprites cannot be serialized/deserialized easily.</p>
+<p>2 possible solutions have been explored, though not to fruition:</p>
+<ol>
+<li><p>Using a gameobject to hold a dictionary of references, and serialize assets using an id. This is the current (incomplete) implementation found in the <code>ScriptableObjectRefDatabase</code> in the GamePlayScene.</p>
+</li>
+<li><p>Using the <a href="href:https://docs.unity3d.com/Manual/com.unity.addressables.html">Addressables</a> Unity Package.</p>
+</li>
+</ol>
+<p>For either solution, a custom serializer will need to implemented in order to serialize the asset references properly. See the manual found in the JSON.net for Unity package to learn more.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

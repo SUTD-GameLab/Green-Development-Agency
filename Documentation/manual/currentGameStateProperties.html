@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Current Game State Properties </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Current Game State Properties ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="currentGameStateProperties.md">
+<h1 id="current-game-state-properties">Current Game State Properties</h1>
+
+<p>Below are the <a class="xref" href="../api/GDA.GameStateProperties.html">GameStateProperties</a> that are currently in the game.</p>
+<h2 id="healthinfection-rate">Health/Infection Rate</h2>
+<p><img src="../images/HealthUI.png" alt="UI for InfectionRate"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.InfectionRate.html">InfectionRate</a> GameStateProperty measures the health of the in-game nation.  If it is too high, it means the infection rate is too high, and health care services cannot keep up with the high infection rate.</p>
+<h3 id="calculation-of-effect">Calculation of effect</h3>
+<p>When a <a href="Proposal.html">proposal</a> is passed into the InfectionRate GameStateProperty, it tries to find a <a class="xref" href="Product.html#product-properties">product property</a> named &quot;PFE&quot; (Particle Filtration Efficiency) for each product in order to calculate its effects. If absent, it the protection from using the product will be assumed to be 0.</p>
+<p>Effect on Population = PFE * Size of <a class="xref" href="UserGroup.html">User Group</a><br>
+Overall Effect = Effect of ProductA - Effect of ProductB (Accepted Proposal) <strong>OR</strong><br>
+Overall Effect = Effect of ProductB - Effect of ProductA (Rejected Proposal)<br>
+Applied Effect = <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Sign.html">Sign</a>(Overall Effect) * <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Log10.html">Log</a>(|Overall Effect|)</p>
+<h2 id="resource-consumption">Resource Consumption</h2>
+<p><img src="../images/ResourceConsumptionUI.png" alt="UI for ResourceConsumption"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.ResourceConsumption.html">ResourceConsumption</a> GameStateProperty measures the <em>rate</em> of resource consumption of the in-game nation.  If it is too high, it means the extraction of resources from the environment is too fast.</p>
+<h3 id="calculation-of-effect-1">Calculation of effect</h3>
+<p>When a <a href="Proposal.html">proposal</a> is passed into the ResourceConsumption GameStateProperty, it uses each product's <a class="xref" href="Product.html#resource-usage">resource usage</a> to calculate the total weight of resources used for each product. Because weight is measured in grams in the game, a scale of 0.01 is used so that changes to the GameStateProperty will not be overly sensitive.</p>
+<p>Effect of Product = Product's Resource Usage * <a class="xref" href="Proposal.html#internally-calculated-quantity">Quantity of Product</a><br>
+Overall Effect = Effect of ProductA - Effect of ProductB (Accepted Proposal) <strong>OR</strong><br>
+Overall Effect = Effect of ProductB - Effect of ProductA (Rejected Proposal)<br>
+Scaled Effect = Overall Effect * 0.01<br>
+Applied Effect = <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Sign.html">Sign</a>(Scaled Effect) * <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Log10.html">Log</a>(|Scaled Effect|)</p>
+<h2 id="energy-consumption">Energy Consumption</h2>
+<p><img src="../images/EnergyConsumptionUI.png" alt="UI for EnergyConsumption"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.EnergyConsumption.html">EnergyConsumption</a> GameStateProperty measures the <em>rate</em> of energy consumption of the in-game nation.</p>
+<h3 id="calculation-of-effect-2">Calculation of effect</h3>
+<p>When a <a href="Proposal.html">proposal</a> is passed into the EnergyConsumption GameStateProperty, it uses each product's <a class="xref" href="Product.html#product-makeup">Makeup</a> to calculate the total energy used in the production of each product. Because weight is measured in Joules in the game, a scale of 0.001 is used so that changes to the GameStateProperty will not be overly sensitive.</p>
+<p>Effect of Product = Product's total Production Energy * <a class="xref" href="Proposal.html#internally-calculated-quantity">Quantity of Product</a><br>
+Overall Effect = Effect of ProductA - Effect of ProductB (Accepted Proposal) <strong>OR</strong><br>
+Overall Effect = Effect of ProductB - Effect of ProductA (Rejected Proposal)<br>
+Scaled Effect = Overall Effect * 0.001<br>
+Applied Effect = <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Sign.html">Sign</a>(Scaled Effect) * <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Log10.html">Log</a>(|Scaled Effect|)</p>
+<h2 id="waste-generated">Waste Generated</h2>
+<p><img src="../images/WasteUI.png" alt="UI for Waste"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.WasteGenerated.html">WasteGenerated</a> GameStateProperty measures the <em>rate</em> of waste generation of the in-game nation.</p>
+<h3 id="calculation-of-effect-3">Calculation of effect</h3>
+<p>When a <a href="Proposal.html">proposal</a> is passed into the WasteGenerated GameStateProperty, it uses each product's <a class="xref" href="Product.html#resource-usage">resource usage</a> to calculate the total weight of resources used for each product. Because weight is measured in grams in the game, a scale of 0.01 is used so that changes to the GameStateProperty will not be overly sensitive.</p>
+<p>Effect of Product = Product's Resource Usage * <a class="xref" href="Proposal.html#internally-calculated-quantity">Quantity of Product</a><br>
+Overall Effect = Effect of ProductA - Effect of ProductB (Accepted Proposal) <strong>OR</strong><br>
+Overall Effect = Effect of ProductB - Effect of ProductA (Rejected Proposal)<br>
+Scaled Effect = Overall Effect * 0.01<br>
+Applied Effect = <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Sign.html">Sign</a>(Scaled Effect) * <a href="href:https://docs.unity3d.com/ScriptReference/Mathf.Log10.html">Log</a>(|Scaled Effect|)</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Currently The WasteGenerated and ResourceUsage GameStateProperties are indistinguishable, which is a limitation of the game.</p>
+</div>
+<h2 id="funds">Funds</h2>
+<p><img src="../images/FundsUI.png" alt="UI for Funds"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.Funds.html">Funds</a> GameStateProperty measures the funds available to the player.</p>
+<h3 id="calculation-of-effect-4">Calculation of effect</h3>
+<p>When a <a href="Proposal.html">proposal</a> is passed into the Funds GameStateProperty, it tries to find a <a class="xref" href="Product.html#product-properties">product property</a> named &quot;Cost&quot; for each product in order to calculate the cost of the <em>procuring</em> product. If absent, it the cost of procuring using the product will be assumed to be 0.</p>
+<p>Total Cost of Product = Product's Cost * <a class="xref" href="Proposal.html#internally-calculated-quantity">Quantity of Product</a><br>
+Applied Effect = Total Cost of ProductA - Total Cost of ProductB (Accepted Proposal) <strong>OR</strong><br>
+Applied Effect = 0 (Rejected Proposal)</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The cost of the proposed product (ProductA) can be cheaper or more expensive than the existing product (ProductB), and accepting a proposal can increase or decrease funds respectively. If a proposal is rejected, then no change happens and funds remains the same.</p>
+</div>
+<h3 id="configurable-options">Configurable Options</h3>
+<p><img src="../images/Funds.png" alt="UI for Funds"></p>
+<ol>
+<li><code>Clamp Min</code> - Whether to set a minimum value for the GameStateProperty</li>
+<li><code>Min</code> - the minimum value to clamp the GameStateProperty to</li>
+<li><code>Clamp Max</code> - Whether to set a maximum value for the GameStateProperty</li>
+<li><code>Max</code> - the maximum value to clamp the GameStateProperty to</li>
+<li><code>Amt</code> - the starting amount of funds available to the player</li>
+<li><code>Funds Topup</code> - the amount of funds to add at the end of each level</li>
+</ol>
+<h2 id="time">Time</h2>
+<p><img src="../images/TimeStateUI.png" alt="UI for the TimeState"></p>
+<p>The <a class="xref" href="../api/GDA.GameStateProperties.Funds.html">TimeState</a> GameStateProperty measures the time remaining in the level. It is not affected by Proposals in any manner.</p>
+<p>The in-game time is measured in days, and whenever a day has passed, it fires an event that can be used by other scripts to trigger code. For example, the <a class="xref" href="NewsManager.html">NewsManager</a> uses it to know when to show the news to the player.</p>
+<h3 id="configurable-options-1">Configurable Options</h3>
+<p><img src="../images/TimeState.png" alt="Options for the TimeState"></p>
+<ol>
+<li><code>Value</code> - the current time in the level, measured in real-life seconds</li>
+<li><code>Clamp Min</code>/<code>Clamp Max</code> - inherited from the base GameStateProperty class. Should not be used unless there is good reason for clamping the time.</li>
+<li><code>Day</code> - the current in-game day in the level</li>
+<li><code>Seconds Per Day</code> - the number of real-life seconds that make up an in-game day</li>
+<li><code>Calendar UI</code> - the UI object that shows the in-game days</li>
+<li><code>Clock UI</code> - the UI object that shows the in-game clock</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

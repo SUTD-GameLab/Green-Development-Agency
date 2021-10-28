@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Proposal Scriptable Object </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Proposal Scriptable Object ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Proposal.md">
+<h1 id="the-proposal-scriptable-object">The Proposal Scriptable Object</h1>
+
+<p>In game, each gameplay loop is defined in a single Proposal ScriptableObject, which is essentially a <code>.asset</code> file containing the information needed for a single gameplay loop. Some of this information are themselves scriptable objects, which will be introduced later.</p>
+<p><img src="../images/ScriptableObject-Proposal.png" alt="A Proposal Scriptable Object"></p>
+<p>A Proposal scriptable object consists of:</p>
+<ol>
+<li><code>Proposer</code> - a <a class="xref" href="ProposerInfo.html">ProposerInfo</a> scriptable object that determines which NPC is making the proposal</li>
+<li><code>Proposer Behaviour</code> - a reference to a <a href="#the-proposerbehaviour-reference">ProposerBehaviour</a> script which governs how an NPC would action</li>
+<li><code>Scripted Conversations</code> - a dictionary/table of <a class="xref" href="Conversation.html">Conversations</a>** to be used by the ProposerBehaviour mentioned above</li>
+<li><code>State Change A</code>/<code>State Change B</code> - <em>Optional</em> <a href="#predefined-state-changes">predefined state changes</a> applied to the <a class="xref" href="GameState.html">game state</a> when a player accepts (StateChangeA applied) or rejects (StateChangeB applied) a proposal.</li>
+<li><code>Product A</code>/<code>Product B</code> - <a class="xref" href="Product.html">Product</a> Scriptable Objects which are the proposed product and the existing product respectively.</li>
+<li><code>News A</code>/<code>News B</code> - <em>Optional</em> <a class="xref" href="NewsItem.html">NewsItem</a> scriptable objects, which are the news articles that appear in the game depending on whether a player accepts (NewsA) or rejects (NewsB) a proposal.</li>
+<li><code>User Group</code> - a <a class="xref" href="UserGroup.html">UserGroup</a> scriptable object, which describes the beneficiary of the proposal (who the proposal is for).</li>
+</ol>
+<h2 id="the-proposerbehaviour-reference">The ProposerBehaviour Reference</h2>
+<p>In each proposal, the NPC follows a behaviour that is coded into a C# class named <a class="xref" href="../api/GDA.ProposerBehaviours.ProposerBehaviour.html">ProposerBehaviour</a>. For special behaviours, a new C# class needs to written to extend the base ProposerBehaviour class, and then referenced in the <a href="#the-proposal-scriptable-object">Proposal</a> ScriptableObject. To see the currently available behaviours, see [Current Proposer Behaviours](xref: currentProposerBehaviours.md).</p>
+<h2 id="predefined-state-changes">Predefined State Changes</h2>
+<p>Usually the changes to the game state will be calculated automatically by the game when a player makes a decision on a proposal. It is however, possible to override this calculation with predefined state changes. This is useful for various reasons (e.g. story events) in the game.</p>
+<p><img src="../images/PredefinedStateChange.png" alt="A Predefined State Change affecting the Infection Rate"></p>
+<p>A dictionary/table is used to define the state changes.<br>
+Each entry consists of:</p>
+<ol>
+<li>The <strong>name</strong> of the <a class="xref" href="../api/GDA.GameStateProperties.GameStateProperty.html">GameStateProperty</a> to be changed</li>
+<li>The <strong>amount</strong> to be changed, a positive/negative value denoting an increase/decrease respectively.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The name of the GameStateProperty can be any string, so long as it is same as in the <a class="xref" href="GameState.html">GameState</a></p>
+</div>
+<p>Additionally, if <code>Freeze Other States</code> is selected, then all the other game state properties not included in the predefined state changes will be frozen and not changed for that particular proposal. If left unchecked, then all game state properties not included in the predefined changes will have their changes calculated as per usual.</p>
+<h2 id="internally-calculated-quantity">Internally Calculated Quantity</h2>
+<p>Given information of the products and the user group, the proposal script calculates the quantity of each product that is required for the user group.</p>
+<ol>
+<li><p>For each product, the Proposal Scriptable Object tries to find <a class="xref" href="Product.html#product-properties">product property</a> named &quot;Uses&quot; and &quot;UsageCapacity&quot; for each product. <em>Uses</em> indicates how many times the product can be used before it should be disposed. <em>Usage Capacity</em> indicates the &quot;load&quot; that the product can take per use. If not found, the product is assumed to have unlimited uses and unlimited capacity resepectively.</p>
+</li>
+<li><p>For the user group, the Proposal Scriptable Object tries to find a <a class="xref" href="UserGroup.html">detail</a> named &quot;UsageRequirement&quot;. This represents the requirements <em>per user</em> in the user group. If not found, it be assumed that one user only needs 1 product each.</p>
+</li>
+<li><p>The quantity of product A/B needed is then calculated like this:<br>
+Quantity = User Group Size * Usage Requirement / Uses / Usage Capacity)</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Example 1</strong><br>
+A washable cloth mask can be used 30 times, but needs 1 day to wash and dry. This essentially means the &quot;capacity&quot; of the cloth mask is halved.</p>
+<p>Uses = 30, UsageCapacity = 0.5</p>
+<p>For a group of 300 people that need to use masks for 30 days,</p>
+<p>User Group Size = 300, UsageRequirement = 30</p>
+<p>Total Quantity of cloth masks needed is then calculated as such:</p>
+<p>Quantity = User Group Size * Usage Requirement / Uses
+Quantity = 300 * 30 / 30 / 0.5 = 600</p>
+</blockquote>
+<blockquote>
+<p><strong>Example 2</strong><br>
+A surgical mask can be only be used once. But does not have restrictions on usage.</p>
+<p>Uses = 30</p>
+<p>For a group of 300 people that need to use masks for 30 days,</p>
+<p>User Group Size = 300, UsageRequirement = 30</p>
+<p>Total Quantity of cloth masks needed is then calculated as such:</p>
+<p>Quantity = User Group Size * Usage Requirement / Uses<br>
+Quantity = 300 * 30 / 1 = 9000</p>
+</blockquote>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

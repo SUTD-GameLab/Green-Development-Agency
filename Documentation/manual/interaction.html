@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Managers </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Managers ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="interaction.md">
+
+
+<p>Behind the scenes, different parts of the game are controlled by a few main scripts. Each of these scripts, named &quot;Managers&quot;, are in charge over one part/mechanic of the game.</p>
+<p>The Managers in the game are:</p>
+<ul>
+<li><a class="xref" href="GamePlayManager.html"><code>GamePlayManager</code></a> - overall in charge of everything, runs the gameplay loop</li>
+<li><a class="xref" href="ProposerManager.html"><code>ProposerManager</code></a> - in charge of updating the proposer UI and loading different <a class="xref" href="../api/GDA.ProposerBehaviours.html">ProposerBehaviour</a></li>
+<li><a class="xref" href="DocumentManager.html"><code>DocumentManager</code></a> - in charge of the documents the players interact with</li>
+<li><a class="xref" href="ConvoUIManager.html"><code>ConvoUIManager</code></a> - in charge of showing in-game <a class="xref" href="Conversation.html">conversations</a></li>
+<li><a class="xref" href="NewsManager.html"><code>NewsManager</code></a> - in charge of loading and showing <a class="xref" href="NewsItem.html">NewsItems</a></li>
+<li><a class="xref" href="MenuManager.html"><code>MenuManager</code></a> - in charge of showing/hiding in-game menus</li>
+<li><a class="xref" href="CutSceneManager.html"><code>CutSceneManager</code></a> - in charge of loading and displaying <a class="xref" href="CutSceneSequence.html">cutscenes</a></li>
+<li><a class="xref" href="OverlayManager.html"><code>OverlayManager</code></a> - in charge of showing overlays</li>
+</ul>
+<h2 id="interactions-between-managers">Interactions between Managers</h2>
+<p>In order for the game to work, the different managers need to communicate. Although technically any script can call on any manager to execute some code, it is good practice to keep interactions between managers confined to a minimum to decrease <a href="href:https://en.wikipedia.org/wiki/Coupling_(computer_programming)">coupling</a>.</p>
+<p>The Cross Functional Flowchart below shows the interactions between the different Managers.</p>
+<p><a href="../images/CrossFunctionalFlowchart.png"><img src="../images/CrossFunctionalFlowchart.png" alt="Cross Functional Flowchart of the game"></a></p>
+<p>In the <a class="xref" href="gameplay-intro.html">main gameplay loop</a>:</p>
+<ol>
+<li><p>Gameplay manager gets next <a class="xref" href="Proposal.html">Proposal</a></p>
+</li>
+<li><p>Gameplay manager sends the proposal to Document manager and Proposer manager to load</p>
+<ol>
+<li>Proposer manager loads the right sprite into the proposer UI and loads the right proposer behaviour</li>
+<li>Document manager loads all relevant information to the documents</li>
+</ol>
+</li>
+<li><p>Proposer manager triggers the animation, and on completion, triggers Document manager to show documents</p>
+</li>
+<li><p>Proposer behaviour acts accordingly, triggering ConvoUI manager for Conversations</p>
+</li>
+<li><p>When documents are all returned, Game manager triggers the proposer manager to start the npc evaluation.</p>
+</li>
+<li><p>Proposer behaviour decides when evaluation is finished and triggers proposer manager to start the leaving animation.</p>
+</li>
+<li><p>When the animation is complete, proposer manager triggers an event to signal the Gameplay manager.</p>
+</li>
+<li><p>Game manager passes the processed proposal to the Gamestate to apply its effects.</p>
+</li>
+<li><p>If any news is generated, game manager triggers an event for the news manager to prepare the news paper.</p>
+</li>
+<li><p>Game manager gets next proposal and loop continues.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Future Work - Data Logging </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Future Work - Data Logging ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="data-logging.md">
+<h1 id="data-logging">Data Logging</h1>
+
+<p>In order that the game might be used for research of some sort, data collected from the game has to be logged somewhere that can be accessed by the researcher. Thankfully, achieving the work required for a <a class="xref" href="saving-loading.html">save system</a> is already half the work needed for data logging.</p>
+<p>Like saving and loading, data logging can make use of serialization to store data about the game. However, unlike saving and loading which can possibly be done on the player's computer locally, data collected from the game needs to be collated together, and be accessible in a central place that is quite possibly not the computer running the game.</p>
+<p>Thus for data logging, an external data storage solution is required, which might look like <a class="xref" href="saving-loading.html#3-serverdatabase">option 3 for achieving persistent game data</a>. To this end there are a few (non-exhaustive) options:</p>
+<h3 id="1-a-database-server">1. A Database Server</h3>
+<p>This would involve setting up a database like <a href="href:https://dev.mysql.com/">MySQL</a> on a server that the game will interact with. This would take quite a bit of expertise, and would likely require a person to be in charge of the server. Researchers would then access information through said person. This option would be favourable if the game is to be scaled up massively.</p>
+<p>Requirements:</p>
+<ul>
+<li>A server</li>
+<li>Knowledge of database setup, use, and management</li>
+<li>Knowledge of how to interface Unity WebGL and the database</li>
+</ul>
+<p>Cost: non-zero, dependant on scale</p>
+<h3 id="2-cloudonline-solutions">2. Cloud/online solutions</h3>
+<p>Online services like <a href="https://firebase.google.com/">Google Firebase</a> provide API for relational databases that the game can use to add and query information. Being not as technically demanding as demanding as maintaining a database, researchers may want to create their own account and link the game to their own personal database on firebase. However, some might still need assistance of someone more familiar with such services to help. This option would be favourable if the scale of the study is large enough to use a database, but small enough such that using an online service would not be too costly.</p>
+<p>Requirements:</p>
+<ul>
+<li>How to use API from the service</li>
+<li>Knowledge of how to interface Unity WebGL to use the API<br>
+Cost: could be free, depending on scale</li>
+</ul>
+<h3 id="3-google-sheets-api">3. Google Sheets API</h3>
+<p>An google sheet can be used as a database of sorts. While not as robust as an actual database, a worksheet is easily accessible to most researchers, even if they are not familiar with coding. With proper documentation, anyone should be able to change some code to link the game to their own google account. This makes this option favourable if the game is to be geared for smaller scale research.</p>
+<p>Requirements:</p>
+<ul>
+<li>A Google account with a <a href="href:https://developers.google.com/">developer profile</a></li>
+<li>(For Coder implementing) How to use <a href="href:https://developers.google.com/sheets/api/guides/concepts">Google Sheets API</a></li>
+<li>(For researcher linking the game) How to <a href="https://developers.google.com/workspace/guides/getstarted-overview">Authenticate/Link the Google account</a></li>
+<li>Knowledge of how to interface Unity WebGL to use the API
+Cost: free</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

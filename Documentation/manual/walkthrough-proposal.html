@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Walkthrough - Creating A Proposal </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Walkthrough - Creating A Proposal ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="walkthrough-proposal.md">
+<h1 id="walkthrough-creating-a-simple-scripted-proposal">Walkthrough: Creating A Simple Scripted Proposal</h1>
+
+<p>To create a proposal, open up the game project in Unity.</p>
+<ol>
+<li>In the &quot;Project&quot; window, right-click on the window, then navigate to and select <code>Create → ScriptableObject → Proposal</code>.</li>
+</ol>
+<p><img src="../images/WT-proposal.png" alt="Creating a Proposal"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The <code>.asset</code> file created from this action can be placed anywhere in the &quot;Assets&quot; folder, although proper file organisation is recommended.</p>
+</div>
+<ol start="2">
+<li>Select the proposal in the  &quot;Project&quot; window. The inspector should show the newly created Proposal.</li>
+</ol>
+<p><img src="../images/WT-selectProposal.png" alt="Selecting the Proposal in the Project Window">
+<img src="../images/WT-selectInspector.png" alt="Selected Proposal in the Inspector Window"></p>
+<ol start="3">
+<li>Attached the desired NPC character (defined by a <a class="xref" href="ProposerInfo.html">ProposerInfo</a> asset)</li>
+</ol>
+<p><img src="../images/WT-ProposerInfo.png" alt="Selecting the ProposerInfo"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Alternatively create your own NPC by creating a new ProposerInfo asset by right-clicking on the project window, then selecting <code>Create → ScriptableObject → Proposer</code>.</p>
+<p>See article on the <a class="xref" href="ProposerInfo.html">ProposerInfo</a> ScriptableObject for details.</p>
+</div>
+<ol start="4">
+<li>Under the <code>Proposer Behaviour</code> field, select <em>GDA.ProposerBehaviours.ScriptedProposerBehaviour</em></li>
+</ol>
+<p><img src="../images/WT-ProposerBehaviour.png" alt="Selecting the Proposer Behaviour"></p>
+<ol start="5">
+<li>Under the <code>Scripted Conversations</code> field, add <a class="xref" href="Conversation.html">conversation</a> assets with the appropriate keys/name. You can use the image below for reference.</li>
+</ol>
+<p><img src="../images/WT-Conversation.png" alt="Selecting the Proposer Behaviour"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can create your own conversation assets by right-clicking on the project window, then selecting <code>Create → ScriptableObject → Conversation</code>.</p>
+<p>See article on the <a class="xref" href="Conversation.html">Conversation</a> ScriptableObject for details.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>For how to use the correct keys to work properly with different ProposerBehaviours, see article on the <a class="xref" href="currentProposerBehaviours.html">current ProposerBehaviours</a> for details.</p>
+</div>
+<ol start="6">
+<li>Create a new <a class="xref" href="Product.html">Product</a> by right-clicking on the project window, then selecting <code>Create → Product → Mask</code>.</li>
+</ol>
+<p><img src="../images/WT-mask.png" alt="Creating a new Product Asset"></p>
+<ol start="7">
+<li>Select the new mask product, and attach a <a class="xref" href="ProductGenerator.html">product generator</a> the <code>Product Generator</code> field.</li>
+</ol>
+<p><img src="../images/WT-ProductGenerator.png" alt="Attaching a Product Generator"></p>
+<ol start="8">
+<li>The product should now be generated. In order to generate the product with different specifications, hit the <code>generate</code> Button.</li>
+</ol>
+<p><img src="../images/WT-Generate.png" alt="The Generate Button"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Details for Products can be filled in manually, but it is much easier to generate the details with a ProductGenerator first, then editing the details afterwards.</p>
+</div>
+<ol start="9">
+<li><p>Repeat steps 6-8 to create another Product asset.</p>
+</li>
+<li><p>Attach the newly created products to the proposal.</p>
+</li>
+</ol>
+<p><img src="../images/WT-attachProduct.png" alt="Attaching a Product to a Proposal"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can attach the product by clicking on the circle then selecting the product, or by click-and-dragging the product from the &quot;Project&quot; window into the slot.</p>
+</div>
+<ol start="11">
+<li>Create a new <a class="xref" href="UserGroup.html">UserGroup</a> by right-clicking on the project window, then selecting <code>Create → ScriptableObjects → UserGroup</code>.</li>
+</ol>
+<p><img src="../images/WT-UserGroup.png" alt="Creating a new UserGroup Asset"></p>
+<ol start="12">
+<li>Select the new usergroup, and attach a <a class="xref" href="UserArchetype.html">UserArchetype</a> to the <code>User Archetype</code> field.</li>
+</ol>
+<p><img src="../images/WT-UserArchetype.png" alt="Attaching a UserArchetype"></p>
+<ol start="13">
+<li>Choose the desired <code>Size Magnitude</code>, then click on the <code>Regenerate Asset</code> button to populate the details of the user group.</li>
+</ol>
+<p><img src="../images/WT-GenerateUser.png" alt="The &quot;Regenerate Asset&quot; button"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Details for UserGroups can be filled in manually, but it is much easier to generate the details with a ProductGenerator first, then editing the details afterwards.</p>
+</div>
+<ol start="10">
+<li>Attach the newly created usergroup to the proposal.</li>
+</ol>
+<p><img src="../images/WT-attachUser.png" alt="Attaching a UserGroup to a Proposal"></p>
+<ol start="11">
+<li>The remaining fields <code>State Change A/B</code>, <code>News A/B</code> can be left blank. To learn how to use them, see articles on the <a class="xref" href="Proposal.html#predefined-state-changes">Proposal</a> and <a class="xref" href="NewsItem.html">NewsItem</a> ScriptableObjects respectively.</li>
+</ol>
+<h1 id="including-the-proposal-in-the-game">Including the Proposal in the Game</h1>
+<p>Now that we have a Proposal, we need to include it into the actual game.</p>
+<ol>
+<li>Select a <a class="xref" href="ProposalSequence.html">ProposalSequence</a> asset in the &quot;Project&quot; window, or create a new one.</li>
+</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can create your own ProposalSequence assets by right-clicking on the project window, then selecting <code>Create → ScriptableObject → ProposalSequence</code>.</p>
+<p>See article on the <a class="xref" href="ProposalSequence.html">Conversation</a> ProposalSequence for details.</p>
+</div>
+<ol start="2">
+<li>Click the &quot;+&quot; button to add a slot.</li>
+</ol>
+<p><img src="../images/WT-addSequenceItem.png" alt="Adding a new slot to a ProposalSequence"></p>
+<ol start="3">
+<li>Expand the new slot.</li>
+</ol>
+<p><img src="../images/WT-expandProposal.png" alt="Expanding the new slot created"></p>
+<ol start="4">
+<li>Ensure <code>Is Generated</code> is <strong>unchecked</strong> and attach the Proposal to the <code>Predefined Proposal</code> field</li>
+</ol>
+<p><img src="../images/WT-attachProposal.png" alt="Attaching the Proposal"></p>
+<ol start="5">
+<li>Select the <code>GamePlayManager</code> in the scene hierarchy.</li>
+</ol>
+<p><img src="../images/WT-GameplayManager.png" alt="GamePlayManager in the scene hierarchy"></p>
+<ol start="6">
+<li>Ensure the relevant ProposalSequence is in the <code>Campaign Sequence</code> field.<br>
+If it is not, then click on the &quot;+&quot; button to add a slot, then add the ProposalSequence to the new slot.</li>
+</ol>
+<p><img src="../images/WT-attachSequence.png" alt="ProposalSequence in the Campaign Sequence"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

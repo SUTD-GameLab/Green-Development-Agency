@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace GDA.GameDocuments
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace GDA.GameDocuments
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GDA.GameDocuments">
+  
+  <h1 id="GDA_GameDocuments" data-uid="GDA.GameDocuments" class="text-break">Namespace GDA.GameDocuments
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="GDA.GameDocuments.Document.html">Document</a></h4>
+      <section><p>Class representing a document in-game. Internally holds a <a class="xref" href="GDA.GameDocuments.UI.DocMiniUI.html">DocMiniUI</a> and a <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a>
+as two representations of the same document.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a></h4>
+      <section><p>Abstract class for implementing a section in a <a class="xref" href="GDA.GameDocuments.Document.html">Document</a>.
+Different Document Sections can be put together in a <a class="xref" href="GDA.GameDocuments.UI.MultiPageDocumentUI.html">MultiPageDocumentUI</a>.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.MaterialsSection.html">MaterialsSection</a></h4>
+      <section><p><a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a> that shows the <a class="xref" href="GDA.Product.html#GDA_Product_productMakeup">productMakeup</a> of a product.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.NewsArticleDocument.html">NewsArticleDocument</a></h4>
+      <section><p>A <a class="xref" href="GDA.GameDocuments.Document.html">Document</a> that repesents a <a class="xref" href="GDA.NewsItem.html">NewsItem</a> in-game.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.ProductSummarySection.html">ProductSummarySection</a></h4>
+      <section><p><a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a> displaying a summary of a <a class="xref" href="GDA.Product.html">Product</a> in relation to its containing <a class="xref" href="GDA.Proposal.html">Proposal</a></p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.ProposalDocument.html">ProposalDocument</a></h4>
+      <section><p>A <a class="xref" href="GDA.GameDocuments.Document.html">Document</a> that displays some set of information from a <a class="xref" href="GDA.Proposal.html">Proposal</a>, customizable through the <a class="xref" href="GDA.GameDocuments.UI.MultiPageDocumentUI.html">MultiPageDocumentUI</a> gameobject.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.ProposalSummarySection.html">ProposalSummarySection</a></h4>
+      <section><p>Special <a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a> displaying the summary of a <a class="xref" href="GDA.Proposal.html">Proposal</a>, including its approval status.
+Also contains the methods for accepting/rejecting the proposal.</p>
+</section>
+      <h4><a class="xref" href="GDA.GameDocuments.SpecsSection.html">SpecsSection</a></h4>
+      <section><p><a class="xref" href="GDA.GameDocuments.DocumentSection.html">DocumentSection</a> for loading the <a class="xref" href="GDA.Product.html#GDA_Product_productProperties">productProperties</a> of a <a class="xref" href="GDA.Product.html">Product</a> in a <a class="xref" href="GDA.Proposal.html">Proposal</a>.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

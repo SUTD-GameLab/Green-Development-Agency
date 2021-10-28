@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConversationBuilder
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConversationBuilder
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GDA.ConversationBuilder">
+  
+  
+  <h1 id="GDA_ConversationBuilder" data-uid="GDA.ConversationBuilder" class="text-break">Class ConversationBuilder
+  </h1>
+  <div class="markdown level0 summary"><p>Helper class to construct <a class="xref" href="GDA.Conversation.html">Conversation</a>s.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConversationBuilder</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GDA.html">GDA</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="GDA_ConversationBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConversationBuilder</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="GDA_ConversationBuilder__ctor_" data-uid="GDA.ConversationBuilder.#ctor*"></a>
+  <h4 id="GDA_ConversationBuilder__ctor_System_Single_System_Single_" data-uid="GDA.ConversationBuilder.#ctor(System.Single,System.Single)">ConversationBuilder(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Constructor for the ConversationBuilder class to initialize it with settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConversationBuilder(float defaultTimeBetweenLines = 3F, float startTime = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">defaultTimeBetweenLines</span></td>
+        <td><p>The default time between when each <a class="xref" href="GDA.ConvoLine.html">ConvoLine</a> is started.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>The starting time of the first line in the conversation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GDA_ConversationBuilder_AddLine_" data-uid="GDA.ConversationBuilder.AddLine*"></a>
+  <h4 id="GDA_ConversationBuilder_AddLine_System_String_System_Boolean_GDA_ProposerInfo_Emotion_" data-uid="GDA.ConversationBuilder.AddLine(System.String,System.Boolean,GDA.ProposerInfo.Emotion)">AddLine(String, Boolean, ProposerInfo.Emotion)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="GDA.ConvoLine.html">ConvoLine</a> to the <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLine(string line, bool isPlayer = false, ProposerInfo.Emotion emotion = ProposerInfo.Emotion.HAPPY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Text of the conversation line</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPlayer</span></td>
+        <td><p>Whether the player character is speakin the line</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.Emotion.html">ProposerInfo.Emotion</a></td>
+        <td><span class="parametername">emotion</span></td>
+        <td><p>Emotion of the speaker when line is spoken</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_ConversationBuilder_AddLine_" data-uid="GDA.ConversationBuilder.AddLine*"></a>
+  <h4 id="GDA_ConversationBuilder_AddLine_System_String_System_Single_System_Boolean_GDA_ProposerInfo_Emotion_" data-uid="GDA.ConversationBuilder.AddLine(System.String,System.Single,System.Boolean,GDA.ProposerInfo.Emotion)">AddLine(String, Single, Boolean, ProposerInfo.Emotion)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="GDA.ConvoLine.html">ConvoLine</a> to the <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLine(string line, float duration, bool isPlayer = false, ProposerInfo.Emotion emotion = ProposerInfo.Emotion.HAPPY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Text of the conversation line</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration from when the added line will be spoken to when the next line (if added) will be spoken.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPlayer</span></td>
+        <td><p>Whether the player character is speakin the line</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.Emotion.html">ProposerInfo.Emotion</a></td>
+        <td><span class="parametername">emotion</span></td>
+        <td><p>Emotion of the speaker when line is spoken</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_ConversationBuilder_AddLine_" data-uid="GDA.ConversationBuilder.AddLine*"></a>
+  <h4 id="GDA_ConversationBuilder_AddLine_System_String_System_Single_UnityEngine_Color_System_Boolean_GDA_ProposerInfo_Emotion_" data-uid="GDA.ConversationBuilder.AddLine(System.String,System.Single,UnityEngine.Color,System.Boolean,GDA.ProposerInfo.Emotion)">AddLine(String, Single, Color, Boolean, ProposerInfo.Emotion)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="GDA.ConvoLine.html">ConvoLine</a> to the <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLine(string line, float duration, Color color, bool isPlayer = false, ProposerInfo.Emotion emotion = ProposerInfo.Emotion.HAPPY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Text of the conversation line</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>The duration from when the added line will be spoken to when the next line (if added) will be spoken.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Color of the text being displayed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPlayer</span></td>
+        <td><p>Whether the player character is speakin the line</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.Emotion.html">ProposerInfo.Emotion</a></td>
+        <td><span class="parametername">emotion</span></td>
+        <td><p>Emotion of the speaker when line is spoken</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_ConversationBuilder_AddLine_" data-uid="GDA.ConversationBuilder.AddLine*"></a>
+  <h4 id="GDA_ConversationBuilder_AddLine_System_String_UnityEngine_Color_System_Boolean_GDA_ProposerInfo_Emotion_" data-uid="GDA.ConversationBuilder.AddLine(System.String,UnityEngine.Color,System.Boolean,GDA.ProposerInfo.Emotion)">AddLine(String, Color, Boolean, ProposerInfo.Emotion)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="GDA.ConvoLine.html">ConvoLine</a> to the <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLine(string line, Color color, bool isPlayer = false, ProposerInfo.Emotion emotion = ProposerInfo.Emotion.HAPPY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">line</span></td>
+        <td><p>Text of the conversation line</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Color of the text being displayed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPlayer</span></td>
+        <td><p>Whether the player character is speakin the line</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.ProposerInfo.Emotion.html">ProposerInfo.Emotion</a></td>
+        <td><span class="parametername">emotion</span></td>
+        <td><p>Emotion of the speaker when line is spoken</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GDA_ConversationBuilder_AddLine_System_String_UnityEngine_Color_System_Boolean_GDA_ProposerInfo_Emotion__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Currently not being utilised; all text are black in the current version of the game.</p>
+</div>
+  
+  
+  <a id="GDA_ConversationBuilder_Concat_" data-uid="GDA.ConversationBuilder.Concat*"></a>
+  <h4 id="GDA_ConversationBuilder_Concat_GDA_Conversation_" data-uid="GDA.ConversationBuilder.Concat(GDA.Conversation)">Concat(Conversation)</h4>
+  <div class="markdown level1 summary"><p>Concatanates a <a class="xref" href="GDA.Conversation.html">Conversation</a> to the end of the conversation being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Concat(Conversation conversation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Conversation.html">Conversation</a></td>
+        <td><span class="parametername">conversation</span></td>
+        <td><p><a class="xref" href="GDA.Conversation.html">Conversation</a> to be concatanated to the end</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_ConversationBuilder_ToConversation_" data-uid="GDA.ConversationBuilder.ToConversation*"></a>
+  <h4 id="GDA_ConversationBuilder_ToConversation" data-uid="GDA.ConversationBuilder.ToConversation">ToConversation()</h4>
+  <div class="markdown level1 summary"><p>Returns a clone of the <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Conversation ToConversation()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.Conversation.html">Conversation</a></td>
+        <td><p>Clone of <a class="xref" href="GDA.Conversation.html">Conversation</a> being built.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

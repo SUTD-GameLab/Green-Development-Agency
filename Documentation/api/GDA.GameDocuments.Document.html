@@ -1,0 +1,733 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Document
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Document
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GDA.GameDocuments.Document">
+  
+  
+  <h1 id="GDA_GameDocuments_Document" data-uid="GDA.GameDocuments.Document" class="text-break">Class Document
+  </h1>
+  <div class="markdown level0 summary"><p>Class representing a document in-game. Internally holds a <a class="xref" href="GDA.GameDocuments.UI.DocMiniUI.html">DocMiniUI</a> and a <a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a>
+as two representations of the same document.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Document</span></div>
+      <div class="level2"><a class="xref" href="GDA.GameDocuments.NewsArticleDocument.html">NewsArticleDocument</a></div>
+      <div class="level2"><a class="xref" href="GDA.GameDocuments.ProposalDocument.html">ProposalDocument</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GDA.GameDocuments.html">GDA.GameDocuments</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="GDA_GameDocuments_Document_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Document</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="GDA_GameDocuments_Document__ctor_" data-uid="GDA.GameDocuments.Document.#ctor*"></a>
+  <h4 id="GDA_GameDocuments_Document__ctor" data-uid="GDA.GameDocuments.Document.#ctor">Document()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Document()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_Document__ctor_" data-uid="GDA.GameDocuments.Document.#ctor*"></a>
+  <h4 id="GDA_GameDocuments_Document__ctor_GDA_GameDocuments_UI_DocMiniUI_GDA_GameDocuments_UI_DocFullUI_" data-uid="GDA.GameDocuments.Document.#ctor(GDA.GameDocuments.UI.DocMiniUI,GDA.GameDocuments.UI.DocFullUI)">Document(DocMiniUI, DocFullUI)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Document(DocMiniUI miniView, DocFullUI fullView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocMiniUI.html">DocMiniUI</a></td>
+        <td><span class="parametername">miniView</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a></td>
+        <td><span class="parametername">fullView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GDA_GameDocuments_Document_IsDragable" data-uid="GDA.GameDocuments.Document.IsDragable">IsDragable</h4>
+  <div class="markdown level1 summary"><p>Whether document can dragged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDragable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="GDA_GameDocuments_Document_fullView_" data-uid="GDA.GameDocuments.Document.fullView*"></a>
+  <h4 id="GDA_GameDocuments_Document_fullView" data-uid="GDA.GameDocuments.Document.fullView">fullView</h4>
+  <div class="markdown level1 summary"><p>The full-view of the document, used on the right area of the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DocFullUI fullView { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_isActive_" data-uid="GDA.GameDocuments.Document.isActive*"></a>
+  <h4 id="GDA_GameDocuments_Document_isActive" data-uid="GDA.GameDocuments.Document.isActive">isActive</h4>
+  <div class="markdown level1 summary"><p>Whether document is being displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_isKeeping_" data-uid="GDA.GameDocuments.Document.isKeeping*"></a>
+  <h4 id="GDA_GameDocuments_Document_isKeeping" data-uid="GDA.GameDocuments.Document.isKeeping">isKeeping</h4>
+  <div class="markdown level1 summary"><p>Whether the document is mid-animation of being stowed away.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isKeeping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_isSubmittable_" data-uid="GDA.GameDocuments.Document.isSubmittable*"></a>
+  <h4 id="GDA_GameDocuments_Document_isSubmittable" data-uid="GDA.GameDocuments.Document.isSubmittable">isSubmittable</h4>
+  <div class="markdown level1 summary"><p>Whether the document can be submitted to a Proposer NPC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool isSubmittable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_miniView_" data-uid="GDA.GameDocuments.Document.miniView*"></a>
+  <h4 id="GDA_GameDocuments_Document_miniView" data-uid="GDA.GameDocuments.Document.miniView">miniView</h4>
+  <div class="markdown level1 summary"><p>The mini-view of the document, used on the left area of the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DocMiniUI miniView { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocMiniUI.html">DocMiniUI</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GDA_GameDocuments_Document_Deselect_" data-uid="GDA.GameDocuments.Document.Deselect*"></a>
+  <h4 id="GDA_GameDocuments_Document_Deselect" data-uid="GDA.GameDocuments.Document.Deselect">Deselect()</h4>
+  <div class="markdown level1 summary"><p>Calls the <span class="xref">DocumentManager</span> instance to deselect the current selected document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deselect()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_Document_GetDocumentVisibility_" data-uid="GDA.GameDocuments.Document.GetDocumentVisibility*"></a>
+  <h4 id="GDA_GameDocuments_Document_GetDocumentVisibility" data-uid="GDA.GameDocuments.Document.GetDocumentVisibility">GetDocumentVisibility()</h4>
+  <div class="markdown level1 summary"><p>Gets which UI element is visible for this document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetDocumentVisibility()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>-1 for mini View, 1 for full view, and 0 for neither.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_GetPosition_" data-uid="GDA.GameDocuments.Document.GetPosition*"></a>
+  <h4 id="GDA_GameDocuments_Document_GetPosition" data-uid="GDA.GameDocuments.Document.GetPosition">GetPosition()</h4>
+  <div class="markdown level1 summary"><p>Get the positon of the document relative to its anchor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 GetPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_Initialize_" data-uid="GDA.GameDocuments.Document.Initialize*"></a>
+  <h4 id="GDA_GameDocuments_Document_Initialize_GDA_GameDocuments_UI_DocMiniUI_GDA_GameDocuments_UI_DocFullUI_" data-uid="GDA.GameDocuments.Document.Initialize(GDA.GameDocuments.UI.DocMiniUI,GDA.GameDocuments.UI.DocFullUI)">Initialize(DocMiniUI, DocFullUI)</h4>
+  <div class="markdown level1 summary"><p>Links both the <code data-dev-comment-type="paramref" class="paramref">miniView</code> and <code data-dev-comment-type="paramref" class="paramref">fullView</code> monobehaviors to itself and vice versa,
+so that both representations can act as if it were one object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(DocMiniUI miniView, DocFullUI fullView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocMiniUI.html">DocMiniUI</a></td>
+        <td><span class="parametername">miniView</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocFullUI.html">DocFullUI</a></td>
+        <td><span class="parametername">fullView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_Keep_" data-uid="GDA.GameDocuments.Document.Keep*"></a>
+  <h4 id="GDA_GameDocuments_Document_Keep" data-uid="GDA.GameDocuments.Document.Keep">Keep()</h4>
+  <div class="markdown level1 summary"><p>Trigger the animation for stowing away the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Keep()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnBeginDrag_" data-uid="GDA.GameDocuments.Document.OnBeginDrag*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnBeginDrag_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnBeginDrag(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnBeginDrag(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IBeginDragHandler.html">IBeginDragHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnBeginDrag(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td><p>The <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a> that is calling this method. (<a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> or <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnDrag_" data-uid="GDA.GameDocuments.Document.OnDrag*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnDrag_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnDrag(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnDrag(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IDragHandler.html">IDragHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDrag(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td><p>The <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a> that is calling this method. (<a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> or <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnEndDrag_" data-uid="GDA.GameDocuments.Document.OnEndDrag*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnEndDrag_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnEndDrag(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnEndDrag(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IEndDragHandler.html">IEndDragHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnEndDrag(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td><p>The <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a> that is calling this method. (<a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> or <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnPointerClick_" data-uid="GDA.GameDocuments.Document.OnPointerClick*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnPointerClick_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnPointerClick(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnPointerClick(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IPointerClickHandler.html">IPointerClickHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPointerClick(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td><p>The <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a> that is calling this method. (<a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> or <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnPointerDown_" data-uid="GDA.GameDocuments.Document.OnPointerDown*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnPointerDown_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnPointerDown(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnPointerDown(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IPointerDownHandler.html">IPointerDownHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPointerDown(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td><p>The <a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a> that is calling this method. (<a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> or <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_OnPointerUp_" data-uid="GDA.GameDocuments.Document.OnPointerUp*"></a>
+  <h4 id="GDA_GameDocuments_Document_OnPointerUp_UnityEngine_EventSystems_PointerEventData_GDA_GameDocuments_UI_DocumentUI_" data-uid="GDA.GameDocuments.Document.OnPointerUp(UnityEngine.EventSystems.PointerEventData,GDA.GameDocuments.UI.DocumentUI)">OnPointerUp(PointerEventData, DocumentUI)</h4>
+  <div class="markdown level1 summary"><p>The actual implementation of the <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.IPointerUpHandler.html">IPointerUpHandler</a>
+interface that both <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_miniView">miniView</a> and <a class="xref" href="GDA.GameDocuments.Document.html#GDA_GameDocuments_Document_fullView">fullView</a> will call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPointerUp(PointerEventData eventData, DocumentUI docUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td><p><a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.EventSystems.PointerEventData.html">PointerEventData from the BeginDrag Event.</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GDA.GameDocuments.UI.DocumentUI.html">DocumentUI</a></td>
+        <td><span class="parametername">docUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GDA_GameDocuments_Document_Select_" data-uid="GDA.GameDocuments.Document.Select*"></a>
+  <h4 id="GDA_GameDocuments_Document_Select" data-uid="GDA.GameDocuments.Document.Select">Select()</h4>
+  <div class="markdown level1 summary"><p>Calls the <span class="xref">DocumentManager</span> instance to select the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Select()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_Document_Submit_" data-uid="GDA.GameDocuments.Document.Submit*"></a>
+  <h4 id="GDA_GameDocuments_Document_Submit" data-uid="GDA.GameDocuments.Document.Submit">Submit()</h4>
+  <div class="markdown level1 summary"><p>Trigger the animation for submitting the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Submit()</code></pre>
+  </div>
+  
+  
+  <a id="GDA_GameDocuments_Document_Table_" data-uid="GDA.GameDocuments.Document.Table*"></a>
+  <h4 id="GDA_GameDocuments_Document_Table_UnityEngine_Vector2_" data-uid="GDA.GameDocuments.Document.Table(UnityEngine.Vector2)">Table(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Trigger the animation for tabling the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Table(Vector2 localPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">localPosition</span></td>
+        <td><p>Starting positon of the animation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
